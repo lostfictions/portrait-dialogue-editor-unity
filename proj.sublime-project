@@ -2,12 +2,63 @@
 	"folders":
 	[
 		{
-			"path": "Assets/Scripts",
-			"file_exclude_patterns": ["*.meta", "*.tags*", "*.git*"]
+			"file_exclude_patterns":
+			[
+				"*.meta",
+				"*.tags*",
+				"*.git*"
+			],
+			"follow_symlinks": true,
+			"path": "Assets/Scripts"
 		},
 		{
-			"path": "Assets/UnityCommon",
-			"file_exclude_patterns": ["*.meta", "*.tags*", "*.git*"]
+			"file_exclude_patterns":
+			[
+				"*.meta",
+				"*.tags*",
+				"*.git*"
+			],
+			"follow_symlinks": true,
+			"path": "Assets/UnityCommon"
+		},
+		{
+			"file_include_patterns":
+			[
+				"*.cs",
+				"*.shader"
+			],
+			"follow_symlinks": true,
+			"path": "Assets/Standard Assets"
+		},
+		{
+			"file_include_patterns":
+			[
+				"*.cs",
+				"*.shader",
+				"*.txt"
+			],
+			"follow_symlinks": true,
+			"path": "Assets/Resources"
+		},
+		{
+			"file_include_patterns":
+			[
+				"*.cs",
+				"*.shader",
+				"*.txt"
+			],
+			"follow_symlinks": true,
+			"path": "Assets/Shaders"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "Assets/3rdParty",
+			"file_exclude_patterns":
+			[
+				"*.meta",
+				"*.tags*",
+				"*.git*"
+			]
 		}
 	]
 }
