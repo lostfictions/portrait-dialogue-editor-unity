@@ -1,14 +1,14 @@
 
 # Unity directories
 
-Library/
-Temp/
+/Library/
+/Temp/
 
 # User-generated directories
 
-[Bb]in/
-[Rr]elease/
-WorkingFiles/
+/[Bb]in/
+/[Rr]elease/
+/WorkingFiles/
 
 # Sublime/Ctags-generated
 
@@ -29,12 +29,16 @@ WorkingFiles/
 
 obj/
 _ReSharper*/
+*.DotSettings*
 
 # System-generated files
 
 .DS_Store*
 ehthumbs.db
-Icon?
-Thumbs.db
+[Tt]humbs.db
 
 # Additional ignores
+
+Assets/_ignoredAssets*
+
+UnityVS.VersionSpecific.dll*
