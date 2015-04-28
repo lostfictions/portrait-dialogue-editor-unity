@@ -29,7 +29,7 @@
 
 obj/
 _ReSharper*/
-*.DotSettings*
+*.DotSettings.User
 
 # System-generated files
 
@@ -38,7 +38,5 @@ ehthumbs.db
 [Tt]humbs.db
 
 # Additional ignores
-
-Assets/_ignoredAssets*
 
 UnityVS.VersionSpecific.dll*
