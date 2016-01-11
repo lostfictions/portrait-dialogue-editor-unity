@@ -2,3 +2,7 @@
 	path = Assets/UnityCommon
 	url = https://lostfictions@bitbucket.org/lostfictions/unitycommon.git
 	branch = master
+[submodule "Assets/Plugins/Node_Editor"]
+	path = Assets/Plugins/Node_Editor
+	url = https://github.com/lostfictions/Node_Editor.git
+	branch = master
