@@ -1,0 +1,5503 @@
+{
+  "script": "paule.js",
+  "questions": [
+    {
+      "id": 0,
+      "choices": [
+        {
+          "strings": {
+            "*": "Excusez-moi..."
+          },
+          "answer": 2,
+          "lang": "fr"
+        },
+        {
+          "strings": {
+            "*": "Excuse me..."
+          },
+          "answer": 2,
+          "lang": "en"
+        },
+        {
+          "strings": {
+            "*": "Verzeihung..."
+          },
+          "answer": 2,
+          "lang": "de"
+        },
+        {
+          "strings": {
+            "*": "Au revoir"
+          },
+          "answer": 151,
+          "lang": "fr"
+        }
+      ],
+      "video": {
+        "src": "P3",
+        "loop": true
+      }
+    },
+    {
+      "id": 1,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Avez-vous...?",
+            "en": "Did you...?",
+            "de": "Haben Sie ...?"
+          },
+          "answer": 150
+        },
+        {
+          "strings": {
+            "fr": "L'avez-vous revu?",
+            "en": "Did you see him again?",
+            "de": "Haben Sie ihn wiedergesehen?"
+          },
+          "answer": 143
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Vous... une oeuvre!",
+            "en": "You... an artwork!",
+            "de": "Sie... ein Kunstwerk!  "
+          },
+          "answer": 63
+        },
+        {
+          "strings": {
+            "fr": "(Rire)",
+            "en": "(Laughs)",
+            "de": "(Lachen)"
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Je ne sais pas où aller.",
+            "en": "I don't know where to go",
+            "de": "Ich weiß nicht, wohin ich gehen soll. "
+          },
+          "answer": 7
+        },
+        {
+          "strings": {
+            "fr": "Non merci!",
+            "en": "No thanks",
+            "de": "Nein danke!"
+          },
+          "answer": 148
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "choices": [
+        {
+          "strings": {
+            "fr": "La matrice de l'avenir?",
+            "en": "The womb of the future?",
+            "de": "Die Matrix der Zukunft?"
+          },
+          "answer": 11
+        },
+        {
+          "strings": {
+            "fr": "Je dois partir.",
+            "en": "I have to go",
+            "de": "Ich muss weiter."
+          },
+          "answer": 148
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Qu'est-ce qui vous intéresse?",
+            "en": "What interests you?",
+            "de": "Was interessiert Sie?"
+          },
+          "answer": 7
+        },
+        {
+          "strings": {
+            "fr": "Je suis désolé(e).",
+            "en": "I feel sorry for you.",
+            "de": "Tut mir leid."
+          },
+          "answer": 147
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Ah bon!... Quoi?",
+            "en": "Ah bon!... What do you mean?",
+            "de": "Ach so? Was?"
+          },
+          "answer": 16
+        },
+        {
+          "strings": {
+            "fr": "Que voulez-vous savoir?",
+            "en": "Do you want to know about it?",
+            "de": "Was möchten Sie wissen?"
+          },
+          "answer": 16
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Qu'y pouvons-nous?",
+            "en": "What can we do?",
+            "de": "Was können wir tun?"
+          },
+          "answer": 141
+        },
+        {
+          "strings": {
+            "fr": "Vous exagérez encore.",
+            "en": "You're over emphasizing.",
+            "de": "Sie übertreiben wieder einmal."
+          },
+          "answer": 144
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Oui, c'est ça.",
+            "en": "Right.",
+            "de": "Ja, genau."
+          },
+          "answer": 29
+        },
+        {
+          "strings": {
+            "fr": "Que voulez-vous dire?",
+            "en": "What do you mean?",
+            "de": "Was meinen Sie damit?"
+          },
+          "answer": 147
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Pouvez-vous en dire plus?",
+            "en": "Tell me some more!",
+            "de": "Können Sie mir mehr darüber sagen? "
+          },
+          "answer": 50
+        },
+        {
+          "strings": {
+            "fr": "Laissez faire.",
+            "en": "Forget it.",
+            "de": "Vergessen Sie es."
+          },
+          "answer": 148
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "choices": [
+        {
+          "strings": {
+            "fr": "(Elle m'énerve))",
+            "en": "(She gets on my nerves)",
+            "de": "(Sie nervt mich)"
+          },
+          "answer": 0
+        },
+        {
+          "strings": {
+            "fr": "Parlez-vous italien?",
+            "en": "You speak Italian?",
+            "de": "Sprechen Sie Italienisch?"
+          },
+          "answer": 51
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Que voulez vous dire?",
+            "en": "What do you mean?",
+            "de": "Was wollen Sie sagen?"
+          },
+          "answer": 37
+        },
+        {
+          "strings": {
+            "fr": "Laissez-vous aller.",
+            "en": "Just relax.",
+            "de": "Lassen Sie sich gehen."
+          },
+          "answer": 145
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Que voulez-vous dire?",
+            "en": "What do you mean?",
+            "de": "Was wollen Sie sagen?"
+          },
+          "answer": 15
+        },
+        {
+          "strings": {
+            "fr": "Etes-vous féministe?",
+            "en": "Are you a feminist?",
+            "de": "Sind Sie Feministin?"
+          },
+          "answer": 40
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Cinéma...?",
+            "en": "Movies...?",
+            "de": "Film...?"
+          },
+          "answer": 56
+        },
+        {
+          "strings": {
+            "fr": "Etes-vous allés plus loin?",
+            "en": "Anything happened?",
+            "de": "Sind Sie noch weiter gegangen?"
+          },
+          "answer": 149
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Que voulez-vous dire?",
+            "en": "What do you mean?",
+            "de": "Was meinen Sie damit?"
+          },
+          "answer": 122
+        },
+        {
+          "strings": {
+            "fr": "(Elle m'énerve)",
+            "en": "(She gets on my nerves)",
+            "de": "(Sie nervt mich)"
+          },
+          "answer": 130
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Je ne fais que passer.",
+            "en": "I'm only passing through.",
+            "de": "Ich bin nur im Vorbeigehen."
+          },
+          "answer": 148
+        },
+        {
+          "strings": {
+            "fr": "J'ai tout mon temps.",
+            "en": "I have time.",
+            "de": "Ich habe es nicht eilig."
+          },
+          "answer": 109
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "choices": [
+        {
+          "strings": {
+            "fr": "(!)",
+            "en": "(!)",
+            "de": "(!)"
+          },
+          "answer": 71
+        },
+        {
+          "strings": {
+            "fr": "C'est absurde!",
+            "en": "This is absurd!",
+            "de": "Das ist absurd!"
+          },
+          "answer": 71
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Que sentez-vous?",
+            "en": "What do you feel?",
+            "de": "Was empfinden Sie?"
+          },
+          "answer": 10
+        },
+        {
+          "strings": {
+            "fr": "Je ne pourrais en dire autant.",
+            "en": "I couldn't say so.",
+            "de": "Das kann ich nicht behaupten."
+          },
+          "answer": 147
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Comment me racheter?",
+            "en": "How could I atone for that?",
+            "de": "Wie kann ich das wieder gut machen?"
+          },
+          "answer": 145
+        },
+        {
+          "strings": {
+            "fr": "(!)",
+            "en": "(!)",
+            "de": "(!)"
+          },
+          "answer": 71
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "choices": [
+        {
+          "strings": {
+            "fr": "On ne pourra jamais éviter ça.",
+            "en": "There will be confrontations.",
+            "de": "So etwas kann man nicht vermeiden."
+          },
+          "answer": 25
+        },
+        {
+          "strings": {
+            "fr": "Oui mais...",
+            "en": "Yes but...",
+            "de": "Ja, aber..."
+          },
+          "answer": 28
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Je devrai vivre avec vous!",
+            "en": "Then... I will have to be with you.",
+            "de": "Ich sollte mit Ihnen zusammen leben!"
+          },
+          "answer": 69
+        },
+        {
+          "strings": {
+            "fr": "Vous êtes hors d'atteinte.",
+            "en": "You are out of reach.",
+            "de": "Sie sind unerreichbar."
+          },
+          "answer": 68
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Un peu.",
+            "en": "A bit.",
+            "de": "Ein bisschen."
+          },
+          "answer": 74
+        },
+        {
+          "strings": {
+            "fr": "Pas du tout.",
+            "en": "Not at all.",
+            "de": "Überhaupt nicht."
+          },
+          "answer": 148
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Bien sûr!",
+            "en": "Sure!",
+            "de": "Natürlich!"
+          },
+          "answer": 89
+        },
+        {
+          "strings": {
+            "fr": "Je ne crois pas.",
+            "en": "I don't think so.",
+            "de": "Ich glaube nicht."
+          },
+          "answer": 109
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Puis-je vous poser une question?",
+            "en": "May I ask you something?",
+            "de": "Darf ich Sie etwas fragen?"
+          },
+          "answer": 107
+        },
+        {
+          "strings": {
+            "fr": "C'est moi que vous regardez?",
+            "en": "Are you staring at me?",
+            "de": "Schauen Sie mich an?"
+          },
+          "answer": 85
+        },
+        {
+          "strings": {
+            "fr": "Auriez-vous l'heure?",
+            "en": "Do you have the time?",
+            "de": "Haben Sie die Uhrzeit?"
+          },
+          "answer": 91
+        },
+        {
+          "strings": {
+            "fr": "Vous n'avez pas changé.",
+            "en": "You haven't changed.",
+            "de": "Sie haben sich nicht verändert."
+          },
+          "answer": 27
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Vous oubliez l'amour.",
+            "en": "You forgot love.",
+            "de": "Ja, aber die Liebe."
+          },
+          "answer": 139
+        },
+        {
+          "strings": {
+            "fr": "Je suis désolé(e).",
+            "en": "I feel sorry.",
+            "de": "Tut mir leid."
+          },
+          "answer": 150
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Si vous y tenez...",
+            "en": "If you insist...",
+            "de": "Wenn Sie wollen..."
+          },
+          "answer": 137
+        },
+        {
+          "strings": {
+            "fr": "(Elle n'est pas commode)",
+            "en": "(She seems tough)",
+            "de": "(Sie ist nicht einfach)"
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Vous me plaisez beaucoup.",
+            "en": "I like you a lot.",
+            "de": "Sie gefallen mir gut."
+          },
+          "answer": 123
+        },
+        {
+          "strings": {
+            "fr": "Ne me prenez pas au sérieux.",
+            "en": "Don't take me too seriously.",
+            "de": "Nehmen Sie mich nicht zu ernst."
+          },
+          "answer": 79
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Que faites-vous ici?",
+            "en": "What do you do?",
+            "de": "Was machen Sie hier?"
+          },
+          "answer": 126
+        },
+        {
+          "strings": {
+            "fr": "Vous attendez quelqu'un?",
+            "en": "Are you waiting for someone?",
+            "de": "Warten Sie auf jemanden?"
+          },
+          "answer": 125
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Oui, malheureusement.",
+            "en": "Unfortunately yes.",
+            "de": "Ja, leider."
+          },
+          "answer": 146
+        },
+        {
+          "strings": {
+            "fr": "Non, pas du tout.",
+            "en": "Not at all!",
+            "de": "Nein, überhaupt nicht."
+          },
+          "answer": 79
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Que faites-vous au juste?",
+            "en": "What do you do here?",
+            "de": "Was sind Sie von Beruf?"
+          },
+          "answer": 106
+        },
+        {
+          "strings": {
+            "fr": "Qui êtes-vous?",
+            "en": "Who are you?",
+            "de": "Wer sind Sie?"
+          },
+          "answer": 108
+        },
+        {
+          "strings": {
+            "fr": "Est-ce que j'ai des chances?",
+            "en": "Do I stand a chance?",
+            "de": "Habe ich eine Chance bei Ihnen?"
+          },
+          "answer": 129
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Je suis dans les affaires.",
+            "en": "I am in business.",
+            "de": "Ich bin in der Wirtschaft tätig."
+          },
+          "answer": 113
+        },
+        {
+          "strings": {
+            "fr": "Je suis perdu(e).",
+            "en": "I'm lost.",
+            "de": "Ich bin völlig verloren."
+          },
+          "answer": 112
+        },
+        {
+          "strings": {
+            "fr": "J'ai 45 ans.",
+            "en": "I'm 45 years old.",
+            "de": "Ich bin 45 Jahre alt."
+          },
+          "answer": 111
+        },
+        {
+          "strings": {
+            "fr": "J'ai trois enfants.",
+            "en": "I have three kids.",
+            "de": "Ich habe drei Kinder."
+          },
+          "answer": 115
+        },
+        {
+          "strings": {
+            "fr": "Je suis un(e) enfant.",
+            "en": "I am a kid.",
+            "de": "Ich bin ein Kind."
+          },
+          "answer": 117
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Je me promène.",
+            "en": "I walk around.",
+            "de": "Ich gehe spazieren."
+          },
+          "answer": 29
+        },
+        {
+          "strings": {
+            "fr": "Ce serait trop long.",
+            "en": "It would take too long.",
+            "de": "Das wäre zu lang zu erklären."
+          },
+          "answer": 110
+        },
+        {
+          "strings": {
+            "fr": "Je vous regarde...",
+            "en": "I am looking at you...",
+            "de": "Ich schaue Sie an..."
+          },
+          "answer": 5
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Je ne vous suit pas.",
+            "en": "I don't get it.",
+            "de": "Ich verstehe nicht."
+          },
+          "answer": 147
+        },
+        {
+          "strings": {
+            "fr": "Tout à fait!",
+            "en": "Exactly!",
+            "de": "Sie haben recht!"
+          },
+          "answer": 111
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Quel âge avez-vous?",
+            "en": "How old are you?",
+            "de": "Wie alt sind Sie?"
+          },
+          "answer": 40
+        },
+        {
+          "strings": {
+            "fr": "Avez-vous revu cette personne?",
+            "en": "Did you see him again?",
+            "de": "Haben Sie ihn wiedergesehen?"
+          },
+          "answer": 118
+        },
+        {
+          "strings": {
+            "fr": "Vous avez beaucoup voyagé?",
+            "en": "You travelled much?",
+            "de": "Sie sind viel herumgekommen?"
+          },
+          "answer": 41
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Vous me plaisez.",
+            "en": "I like you.",
+            "de": "Sie gefallen mir."
+          },
+          "answer": 124
+        },
+        {
+          "strings": {
+            "fr": "Etes-vous libre?",
+            "en": "Are you free?",
+            "de": "Sind Sie frei?"
+          },
+          "answer": 144
+        },
+        {
+          "strings": {
+            "fr": "(Sourire)",
+            "en": "(Smile)",
+            "de": "(Lächeln)"
+          },
+          "answer": 119
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Vous me plaisez.",
+            "en": "I am attracted to you.",
+            "de": "Sie gefallen mir."
+          },
+          "answer": 79
+        },
+        {
+          "strings": {
+            "fr": "Vous m'intimidez.",
+            "en": "I am intimidated.",
+            "de": "Sie machen mich schüchtern."
+          },
+          "answer": 147
+        },
+        {
+          "strings": {
+            "fr": "Vous n'avez pas changé.",
+            "en": "You haven't changed.",
+            "de": "Sie haben sich nicht verändert."
+          },
+          "answer": 30
+        },
+        {
+          "strings": {
+            "fr": "Au revoir.",
+            "en": "Au revoir.",
+            "de": "Tschüss."
+          },
+          "answer": 80
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Ah! bon.",
+            "en": "Ah! bon.",
+            "de": "Wirklich!"
+          },
+          "answer": 27
+        },
+        {
+          "strings": {
+            "fr": "Vous perdez votre temps.",
+            "en": "You're loosing your time.",
+            "de": "Sie verlieren Ihre Zeit."
+          },
+          "answer": 50
+        },
+        {
+          "strings": {
+            "fr": "C'est moi!",
+            "en": "Could it be me?",
+            "de": "Das bin ich!"
+          },
+          "answer": 132
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Très bien, merci.",
+            "en": "Things are OK.",
+            "de": "Mir geht es gut, danke."
+          },
+          "answer": 121
+        },
+        {
+          "strings": {
+            "fr": "Vous êtes curieuse.",
+            "en": "You are investigative.",
+            "de": "Sie sind neugierig."
+          },
+          "answer": 33
+        },
+        {
+          "strings": {
+            "fr": "Ça ne va pas du tout.",
+            "en": "I don't have it so good.",
+            "de": "ir geht es überhaupt nicht gut."
+          },
+          "answer": 128
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Le sport.",
+            "en": "Sports.",
+            "de": "Sport."
+          },
+          "answer": 20
+        },
+        {
+          "strings": {
+            "fr": "La réalité virtuelle.",
+            "en": "Virtual reality.",
+            "de": "Virtuelle Realität."
+          },
+          "answer": 1
+        },
+        {
+          "strings": {
+            "fr": "Vous savez, en politique...",
+            "en": "Well you know, in politics...",
+            "de": "Wissen Sie, in der Politik..."
+          },
+          "answer": 17
+        },
+        {
+          "strings": {
+            "fr": "Rock and roll!",
+            "en": "Rock and roll!",
+            "de": "Musik!"
+          },
+          "answer": 146
+        },
+        {
+          "strings": {
+            "fr": "Je travaille beaucoup.",
+            "en": "I work a lot.",
+            "de": "Ich habe viel Arbeit."
+          },
+          "answer": 19
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Vous n'avez pas peur?",
+            "en": "Aren't you afraid ?",
+            "de": "Haben Sie keine Angst?"
+          },
+          "answer": 38
+        },
+        {
+          "strings": {
+            "fr": "Vous avez bien raison.",
+            "en": "You're right!",
+            "de": "Sie haben völlig recht."
+          },
+          "answer": 119
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Un peu.",
+            "en": "A bit.",
+            "de": "Ein bisschen."
+          },
+          "answer": 147
+        },
+        {
+          "strings": {
+            "fr": "Pas du tout!",
+            "en": "Not at all!",
+            "de": "Überhaupt nicht!"
+          },
+          "answer": 86
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "choices": [
+        {
+          "strings": {
+            "fr": "(Elle m'énerve)",
+            "en": "(She gets on my nerves)",
+            "de": "(Sie nervt mich)"
+          },
+          "answer": 130
+        },
+        {
+          "strings": {
+            "fr": "Vous vous trompez.",
+            "en": "You are wrong.",
+            "de": "Da irren Sie sich."
+          },
+          "answer": 87
+        },
+        {
+          "strings": {
+            "fr": "Comment avez-vous fait?",
+            "en": "How did you find out?",
+            "de": "Wie haben Sie das gemacht?"
+          },
+          "answer": 88
+        },
+        {
+          "strings": {
+            "fr": "Ne vous défilez pas.",
+            "en": "Don't avoid the question.",
+            "de": "Weichen Sie nicht aus."
+          },
+          "answer": 90
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "choices": [
+        {
+          "strings": {
+            "fr": "A quelle heure finissez-vous?",
+            "en": "When are you finished?",
+            "de": "Wann haben Sie Feierabend?"
+          },
+          "answer": 133
+        },
+        {
+          "strings": {
+            "fr": "Je vous remercie.",
+            "en": "Thank you.",
+            "de": "Danke. "
+          },
+          "answer": 119
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Que voulez-vous dire?",
+            "en": "What do you mean?",
+            "de": "Was wollen Sie sagen?"
+          },
+          "answer": 30
+        },
+        {
+          "strings": {
+            "fr": "Ça ne va pas aujourd'hui?",
+            "en": "You don't feel good today?",
+            "de": "Ist das heute kein guter Tag?"
+          },
+          "answer": 134
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Un admirateur.",
+            "en": "Man.",
+            "de": "Ein männlicher Fan"
+          },
+          "answer": 136
+        },
+        {
+          "strings": {
+            "fr": "Une admiratrice.",
+            "en": "Woman.",
+            "de": "Ein weiblicher Fan"
+          },
+          "answer": 150
+        },
+        {
+          "strings": {
+            "fr": "Laissez tomber!",
+            "en": "Forget it.",
+            "de": "Vergessen Sie's!"
+          },
+          "answer": 15
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Vous êtes féministe?",
+            "en": "Are you a feminist?",
+            "de": "Sind Sie Feministin?"
+          },
+          "answer": 135
+        },
+        {
+          "strings": {
+            "fr": "Vous m'avez mal compris.",
+            "en": "This is not what I meant.",
+            "de": "Sie haben mich missverstanden."
+          },
+          "answer": 150
+        },
+        {
+          "strings": {
+            "fr": "Aidez-moi un peu.",
+            "en": "I need help.",
+            "de": "Dann helfen Sie mir auf die Sprünge."
+          },
+          "answer": 30
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "choices": [
+        {
+          "strings": {
+            "fr": "(Elle est fâchée)",
+            "en": "(She is not happy)",
+            "de": "(Sie ist verärgert)"
+          },
+          "answer": 138
+        },
+        {
+          "strings": {
+            "fr": "On s'est mal compris.",
+            "en": "This is a misunderstanding.",
+            "de": "Wir haben uns missverstanden."
+          },
+          "answer": 150
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Vous y allez un peu fort.",
+            "en": "Aren't you pushing a bit?",
+            "de": "Da übertreiben Sie aber ein bisschen."
+          },
+          "answer": 142
+        },
+        {
+          "strings": {
+            "fr": "Qu'est-ce qu'on peut y faire?",
+            "en": "What can we do about it?",
+            "de": "Was soll man da machen?"
+          },
+          "answer": 140
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Mais encore...",
+            "en": "Then what...",
+            "de": "Und weiter..."
+          },
+          "answer": 141
+        },
+        {
+          "strings": {
+            "fr": "Ce n'est pas si simple.",
+            "en": "It can't be all that simple.",
+            "de": "So einfach ist das nicht."
+          },
+          "answer": 12
+        },
+        {
+          "strings": {
+            "fr": "C'est de la politique tout ça.",
+            "en": "All this is politics.",
+            "de": "Das ist doch alles Politik."
+          },
+          "answer": 15
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Comment êtes-vous?",
+            "en": "Tell me about you?",
+            "de": "Wie geht es Ihnen?"
+          },
+          "answer": 127
+        },
+        {
+          "strings": {
+            "fr": "C'est désolant.",
+            "en": "It's a pity.",
+            "de": "Das ist traurig."
+          },
+          "answer": 37
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Que voulez-vous dire?",
+            "en": "What do you mean?",
+            "de": "Was wollen Sie damit sagen?"
+          },
+          "answer": 72
+        },
+        {
+          "strings": {
+            "fr": "Vous êtes mystique?",
+            "en": "Are you a mystic?",
+            "de": "Sind Sie eine Mystikerin?"
+          },
+          "answer": 82
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Donnez-moi un exemple.",
+            "en": "Give me an example.",
+            "de": "Geben Sie mir ein Beispiel."
+          },
+          "answer": 73
+        },
+        {
+          "strings": {
+            "fr": "Vous êtes croyante?",
+            "en": "Are you a believer?",
+            "de": "Sind Sie gläubig?"
+          },
+          "answer": 83
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Pour moi, la beauté c'est vous.",
+            "en": "To me, beauty is you.",
+            "de": "Für mich sind  Sie der Inbegriff der Schönheit."
+          },
+          "answer": 7
+        },
+        {
+          "strings": {
+            "fr": "Je ne suis pas d'accord.",
+            "en": "I don't agree.",
+            "de": "Damit bin ich nicht einverstanden. "
+          },
+          "answer": 84
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "choices": [
+        {
+          "strings": {
+            "fr": "O.K.!",
+            "en": "OK!",
+            "de": "OK!"
+          },
+          "answer": 78
+        },
+        {
+          "strings": {
+            "fr": "Non, pas vraiment.",
+            "en": "No. Not really.",
+            "de": "Nein, nicht wirklich."
+          },
+          "answer": 148
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Faites-moi une confidence.",
+            "en": "Tell me something secret.",
+            "de": "Verraten Sie mir ein Geheimnis."
+          },
+          "answer": 73
+        },
+        {
+          "strings": {
+            "fr": "Comptez jusqu'à cent.",
+            "en": "Count up to 100.",
+            "de": "Zählen Sie bis hundert."
+          },
+          "answer": 55
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Je ne comprends pas.",
+            "en": "I don't understand.",
+            "de": "Ich verstehe nicht."
+          },
+          "answer": 69
+        },
+        {
+          "strings": {
+            "fr": "Ah! bon.",
+            "en": "Ah! bon.",
+            "de": "Ach so."
+          },
+          "answer": 27
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "choices": [
+        {
+          "strings": {
+            "fr": "C'est absurde!",
+            "en": "This is absurd!",
+            "de": "Das ist absurd!"
+          },
+          "answer": 71
+        },
+        {
+          "strings": {
+            "fr": "L'art?",
+            "en": "Art?",
+            "de": "Kunst? "
+          },
+          "answer": 63
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Une histoire de Bioy-Casares?",
+            "en": "Bioy-Casares?",
+            "de": "Ein Roman von Bioy-Casares?"
+          },
+          "answer": 26
+        },
+        {
+          "strings": {
+            "fr": "Vous êtes un mensonge!",
+            "en": "You are a lie!",
+            "de": "Sie sind ein Trugbild!"
+          },
+          "answer": 70
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Ça me désole.",
+            "en": "It's sad.",
+            "de": "Das tut mir leid."
+          },
+          "answer": 68
+        },
+        {
+          "strings": {
+            "fr": "Tant pis!",
+            "en": "Just too bad!",
+            "de": "Da kann man nichts machen!"
+          },
+          "answer": 148
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Vous, qu'en pensez-vous?",
+            "en": "What do you think?",
+            "de": "Was halten Sie davon?"
+          },
+          "answer": 67
+        },
+        {
+          "strings": {
+            "fr": "Ça n'a pas de sens.",
+            "en": "It doesn't make sense.",
+            "de": "Das hat gar keinen Sinn."
+          },
+          "answer": 37
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Ça nous ressemble, vous et moi.",
+            "en": "It's like you and me.",
+            "de": "Das ist wie Sie und ich."
+          },
+          "answer": 66
+        },
+        {
+          "strings": {
+            "fr": "Je ne vous suit pas.",
+            "en": "I don't follow you.",
+            "de": "Ich verstehe Sie nicht."
+          },
+          "answer": 147
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Oui.",
+            "en": "Yes.",
+            "de": "Ja."
+          },
+          "answer": 65
+        },
+        {
+          "strings": {
+            "fr": "Non.",
+            "en": "No.",
+            "de": "Nein."
+          },
+          "answer": 64
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Je suis collectionneur.",
+            "en": "I am a collector.",
+            "de": "Ich sammle Kunst."
+          },
+          "answer": 114
+        },
+        {
+          "strings": {
+            "fr": "Je ne vais pas au musée.",
+            "en": "I don't visit to museums.",
+            "de": "Ich gehe nicht ins Museum."
+          },
+          "answer": 62
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Je ne m'intéresse pas à l'art.",
+            "en": "I am not interested in art.",
+            "de": "Kunst interessiert mich nicht."
+          },
+          "answer": 61
+        },
+        {
+          "strings": {
+            "fr": "Je suis collectionneur(euse).",
+            "en": "I am a collector.",
+            "de": "Ich bin Kunstsammler."
+          },
+          "answer": 114
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "choices": [
+        {
+          "strings": {
+            "fr": "(?)",
+            "en": "(?)",
+            "de": "(?)"
+          },
+          "answer": 59
+        },
+        {
+          "strings": {
+            "fr": "En êtes-vous sûre?",
+            "en": "Are you sure?",
+            "de": "Sind Sie dessen sicher?"
+          },
+          "answer": 144
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Non, pas particulièrement.",
+            "en": "No, not really.",
+            "de": "Nein, nicht besonders."
+          },
+          "answer": 74
+        },
+        {
+          "strings": {
+            "fr": "Un peu, oui.",
+            "en": "A bit, yes.",
+            "de": "Ein bisschen, ja."
+          },
+          "answer": 146
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "choices": [
+        {
+          "strings": {
+            "fr": "O.K.",
+            "en": "OK.",
+            "de": "OK."
+          },
+          "answer": 122
+        },
+        {
+          "strings": {
+            "fr": "Ce sera tout?",
+            "en": "Will that be all?",
+            "de": "Ist das alles?"
+          },
+          "answer": 57
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Vous êtes une illusion.",
+            "en": "You are an illusion.",
+            "de": "Sie sind ein Trugbild."
+          },
+          "answer": 69
+        },
+        {
+          "strings": {
+            "fr": "Je ne comprends pas.",
+            "en": "I don't get it.",
+            "de": "Ich verstehe nicht."
+          },
+          "answer": 147
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Pourquoi?",
+            "en": "Why?",
+            "de": "Warum?"
+          },
+          "answer": 58
+        },
+        {
+          "strings": {
+            "fr": "Non merci!",
+            "en": "No thanks!",
+            "de": "Nein danke!"
+          },
+          "answer": 148
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Je ne vous suit pas.",
+            "en": "I don't get it.",
+            "de": "Ich verstehe Sie nicht."
+          },
+          "answer": 148
+        },
+        {
+          "strings": {
+            "fr": "Continuez!",
+            "en": "Go on!",
+            "de": "Fahren Sie fort!"
+          },
+          "answer": 145
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Et alors?",
+            "en": "And then what?",
+            "de": "Und weiter?"
+          },
+          "answer": 145
+        },
+        {
+          "strings": {
+            "fr": "Je suis pris(e).",
+            "en": "You got me.",
+            "de": "Der Punkt geht an Sie."
+          },
+          "answer": 132
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Oui.",
+            "en": "Yes.",
+            "de": "Ja."
+          },
+          "answer": 54
+        },
+        {
+          "strings": {
+            "fr": "Non.",
+            "en": "No.",
+            "de": "Nein."
+          },
+          "answer": 53
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Je suis un peu pressé(e).",
+            "en": "Listen... I'm on a run.",
+            "de": "Ich habe es etwas eilig."
+          },
+          "answer": 148
+        },
+        {
+          "strings": {
+            "fr": "Ah! bon.",
+            "en": "Why me?",
+            "de": "Ach so."
+          },
+          "answer": 111
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "choices": [
+        {
+          "strings": {
+            "fr": "L'avez-vous revu?",
+            "en": "Did you see him again?",
+            "de": "Haben Sie ihn wieder gesehen?"
+          },
+          "answer": 143
+        },
+        {
+          "strings": {
+            "fr": "Je ne comprends pas.",
+            "en": "It doesn't look like me.",
+            "de": "Ich verstehe nicht."
+          },
+          "answer": 23
+        },
+        {
+          "strings": {
+            "fr": "Ça vous arrive souvent?",
+            "en": "You meet many people? ",
+            "de": "Passiert Ihnen das häufig?"
+          },
+          "answer": 81
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Vous n'êtes pas timide.",
+            "en": "You are not timid.",
+            "de": "Sie sind nicht schüchtern."
+          },
+          "answer": 52
+        },
+        {
+          "strings": {
+            "fr": "Qui êtes-vous?",
+            "en": "Who are you?",
+            "de": "Wer sind Sie?"
+          },
+          "answer": 108
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Euh!... oui.",
+            "en": "Er!... Yes.",
+            "de": "Äh!... Ja."
+          },
+          "answer": 74
+        },
+        {
+          "strings": {
+            "fr": "Pas du tout.",
+            "en": "Not at all.",
+            "de": "Gar nicht."
+          },
+          "answer": 112
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Intéressant!",
+            "en": "Interesting!",
+            "de": "Interessant!"
+          },
+          "answer": 75
+        },
+        {
+          "strings": {
+            "fr": "Vous rencontrez des gens?",
+            "en": "You get to meet many people?",
+            "de": "Lernen Sie viele Menschen kennen?"
+          },
+          "answer": 81
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Ce n'est pas intéressant.",
+            "en": "It's not interesting.",
+            "de": "Das ist nicht interessant."
+          },
+          "answer": 37
+        },
+        {
+          "strings": {
+            "fr": "(!)",
+            "en": "(!)",
+            "de": "(!)"
+          },
+          "answer": 71
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "choices": [
+        {
+          "strings": {
+            "fr": "On peut avoir peur.",
+            "en": "One could be afraid.",
+            "de": "Da kann man es mit der Angst bekommen."
+          },
+          "answer": 35
+        },
+        {
+          "strings": {
+            "fr": "Vous avez raison.",
+            "en": "You're right.",
+            "de": "Sie haben recht."
+          },
+          "answer": 119
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Oui.",
+            "en": "Yes.",
+            "de": "Ja."
+          },
+          "answer": 24
+        },
+        {
+          "strings": {
+            "fr": "Non.",
+            "en": "No.",
+            "de": "Nein."
+          },
+          "answer": 81
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "choices": [
+        {
+          "strings": {
+            "fr": "J'aime le risque.",
+            "en": "I like risk.",
+            "de": "Ich liebe das Risiko."
+          },
+          "answer": 42
+        },
+        {
+          "strings": {
+            "fr": "Pas avec vous.",
+            "en": "Not with you.",
+            "de": "Nicht mit Ihnen."
+          },
+          "answer": 34
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Dépasse quoi?",
+            "en": "Surpass what?",
+            "de": "Was übertreffen?"
+          },
+          "answer": 32
+        },
+        {
+          "strings": {
+            "fr": "(Elle m'énerve)",
+            "en": "(She gets on my nerves)",
+            "de": "(Sie nervt mich)"
+          },
+          "answer": 130
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Ça ne fait rien.",
+            "en": "It doesn't matter.",
+            "de": "Das macht nichts."
+          },
+          "answer": 37
+        },
+        {
+          "strings": {
+            "fr": "Comment êtes-vous?",
+            "en": "Tell me about you.",
+            "de": "Wie fühlen Sie sich?"
+          },
+          "answer": 69
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Je connais.",
+            "en": "I know what you mean.",
+            "de": "Das kenne ich."
+          },
+          "answer": 67
+        },
+        {
+          "strings": {
+            "fr": "Parlez-moi de vous.",
+            "en": "Tell me about you.",
+            "de": "Erzählen Sie mir etwas von sich."
+          },
+          "answer": 73
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Peut-être.",
+            "en": "Maybe.",
+            "de": "Vielleicht."
+          },
+          "answer": 67
+        },
+        {
+          "strings": {
+            "fr": "Parlez-moi.",
+            "en": "Speak to me.",
+            "de": "Sagen Sie mir etwas."
+          },
+          "answer": 49
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Equilibrer risque et prudence?",
+            "en": "To ballance risk with caution?",
+            "de": "Risiko und Vorsicht ausgleichen?"
+          },
+          "answer": 31
+        },
+        {
+          "strings": {
+            "fr": "Vous aimez voyager?",
+            "en": "You like to travel?",
+            "de": "Reisen Sie gerne?"
+          },
+          "answer": 29
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Vivons.",
+            "en": "Lets live.",
+            "de": "Genießen wir das Leben."
+          },
+          "answer": 30
+        },
+        {
+          "strings": {
+            "fr": "Quel avenir!",
+            "en": "No future!",
+            "de": "Welch eine Zukunft!"
+          },
+          "answer": 148
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Racontez-moi quelque chose.",
+            "en": "Tell me something.",
+            "de": "Erzählen Sie mir etwas."
+          },
+          "answer": 145
+        },
+        {
+          "strings": {
+            "fr": "Parlez-moi de vous.",
+            "en": "Tell me about you.",
+            "de": "Erzählen Sie mir etwas von sich."
+          },
+          "answer": 70
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Vous ne voyagez plus?",
+            "en": "You're not travelling anymore?",
+            "de": "Sie reisen nicht mehr?"
+          },
+          "answer": 30
+        },
+        {
+          "strings": {
+            "fr": "Racontez-moi.",
+            "en": "Tell me.",
+            "de": "Erzählen Sie mir."
+          },
+          "answer": 44
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Vous n'aviez pas peur?",
+            "en": "Weren't you scared?",
+            "de": "Hatten Sie keine Angst?"
+          },
+          "answer": 39
+        },
+        {
+          "strings": {
+            "fr": "Avez-vous des souvenirs?",
+            "en": "Do you have memories?",
+            "de": "Haben Sie noch Erinnerungen?"
+          },
+          "answer": 45
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Continuez.",
+            "en": "Go on.",
+            "de": "Fahren Sie fort."
+          },
+          "answer": 46
+        },
+        {
+          "strings": {
+            "fr": "(?)",
+            "en": "(?)",
+            "de": "(?)"
+          },
+          "answer": 150
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Continuez.",
+            "en": "Go on.",
+            "de": "Fahren Sie fort."
+          },
+          "answer": 47
+        },
+        {
+          "strings": {
+            "fr": "(?)",
+            "en": "(?)",
+            "de": "(?)"
+          },
+          "answer": 150
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Continuez.",
+            "en": "Go on.",
+            "de": "Fahren Sie fort."
+          },
+          "answer": 48
+        },
+        {
+          "strings": {
+            "fr": "(?)",
+            "en": "(?)",
+            "de": "(?)"
+          },
+          "answer": 150
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Pas du tout.",
+            "en": "Not at all.",
+            "de": "Überhaupt nicht."
+          },
+          "answer": 116
+        },
+        {
+          "strings": {
+            "fr": "Oui, je rêvais de voyager.",
+            "en": "Yes, I wanted to travel.",
+            "de": "Ja, ich träumte davon, zu reisen."
+          },
+          "answer": 29
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Pourquoi?",
+            "en": "Why?",
+            "de": "Warum?"
+          },
+          "answer": 58
+        },
+        {
+          "strings": {
+            "fr": "Ah!",
+            "en": "Ah!",
+            "de": "Ah so!"
+          },
+          "answer": 83
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Je ne suis pas d'accord.",
+            "en": "I don't agree.",
+            "de": "Das finde ich nicht."
+          },
+          "answer": 13
+        },
+        {
+          "strings": {
+            "fr": "Je suis d'accord.",
+            "en": "I agree.",
+            "de": "Das finde ich auch."
+          },
+          "answer": 14
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "choices": [
+        {
+          "strings": {
+            "fr": "La nuit?",
+            "en": "The night?",
+            "de": "Die Nacht?"
+          },
+          "answer": 4
+        },
+        {
+          "strings": {
+            "fr": "Ça n'a aucun sens.",
+            "en": "It doesn't make sense.",
+            "de": "Das hat keinen Sinn."
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "choices": [
+        {
+          "strings": {
+            "fr": "A la télé.",
+            "en": "On TV.",
+            "de": "Im Fernsehen."
+          },
+          "answer": 21
+        },
+        {
+          "strings": {
+            "fr": "En faire.",
+            "en": "To do sports.",
+            "de": "Ich treibe Sport."
+          },
+          "answer": 22
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Pourquoi parlez-vous au passé?",
+            "en": "Why speak in the past tense?",
+            "de": "Warum sprechen Sie in der Vergangenheit?"
+          },
+          "answer": 30
+        },
+        {
+          "strings": {
+            "fr": "Vous conduisez?",
+            "en": "Do you drive?",
+            "de": "Fahren Sie Auto?"
+          },
+          "answer": 7
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Je ne comprends pas?",
+            "en": "I don't get it?",
+            "de": "Ich verstehe nicht."
+          },
+          "answer": 7
+        },
+        {
+          "strings": {
+            "fr": "Et pourquoi donc?",
+            "en": "How could that be?",
+            "de": "Und warum?"
+          },
+          "answer": 6
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Je ferme les yeux.",
+            "en": "I close my eyes.",
+            "de": "Ich mache die Augen zu."
+          },
+          "answer": 5
+        },
+        {
+          "strings": {
+            "fr": "N'essayez pas de...",
+            "en": "Don't try to...",
+            "de": "Versuchen Sie nicht..."
+          },
+          "answer": 148
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Vous êtes courageuse?",
+            "en": "Are you being courageous?",
+            "de": "Sind Sie mutig?"
+          },
+          "answer": 8
+        },
+        {
+          "strings": {
+            "fr": "Que voulez-vous dire?",
+            "en": "What do you mean?",
+            "de": "Was meinen Sie damit?"
+          },
+          "answer": 4
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "choices": [
+        {
+          "strings": {
+            "fr": "Que sentez-vous?",
+            "en": "How is it?",
+            "de": "Was empfinden Sie?"
+          },
+          "answer": 45
+        },
+        {
+          "strings": {
+            "fr": "Moi ça me crispe.",
+            "en": "I hate darkness.",
+            "de": "Das ist nichts für mich."
+          },
+          "answer": 147
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "id": 0,
+      "next": "question:0",
+      "video": {
+        "src": "P3"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "" ]
+        ],
+        "en": [
+          [ 0, "" ]
+        ],
+        "de": [
+          [ 0, "" ]
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "next": "question:6",
+      "video": {
+        "src": "P2"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Ah! bon." ]
+        ],
+        "en": [
+          [ 1, "Oh well!" ]
+        ],
+        "de": [
+          [ 1, "Ach so." ]
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "next": "question:23",
+      "video": {
+        "src": "P4"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "" ]
+        ],
+        "en": [
+          [ 0, "" ]
+        ],
+        "de": [
+          [ 0, "" ]
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "next": "clip:0",
+      "video": {
+        "src": "P5"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "" ]
+        ],
+        "en": [
+          [ 0, "" ]
+        ],
+        "de": [
+          [ 0, "" ]
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "next": "clip:0",
+      "video": {
+        "src": "P6"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Notre monde s'est construit de jour. La nuit en a été chassée à force d'éclairage." ],
+          [ 9, "L'obscurité est notre point faible, notre talon d'Achile." ],
+          [ 14, "La nuit est sensible!" ]
+        ],
+        "en": [
+          [ 1, "Our world was built in a day." ],
+          [ 9, "And the night ended up being dispelled by lighting." ],
+          [ 14, "Darkness is our weak point, Achilles' heel. The night is sensitive!" ]
+        ],
+        "de": [
+          [ 1, "Unsere Welt wurde am Tag erschaffen." ],
+          [ 9, "Die Nacht wurde von der Beleuchtung verdrängt. Die Dunkelheit ist unsere Schwäche, unsere Achillesferse." ],
+          [ 14, "Die Nacht ist  empfindlich!" ]
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "next": "question:99",
+      "video": {
+        "src": "P7"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "La lumière nous aveugle. On ne voit bien que dans l'obscurité." ]
+        ],
+        "en": [
+          [ 2, "The light blinds us. We see well only in darkness." ]
+        ],
+        "de": [
+          [ 2, "Das Licht blendet uns. Sehen kann  man nur in der Dunkelheit." ]
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "next": "question:4",
+      "video": {
+        "src": "P8"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "L'obscurité est vierge du monde construit par l'image." ],
+          [ 5, "Elle est la matrice de l'avenir." ]
+        ],
+        "en": [
+          [ 1, "The dark is free from the world shaped by the image." ],
+          [ 5, "Darkness is the womb of future." ]
+        ],
+        "de": [
+          [ 1, "Die Dunkelheit ist unberührt von der Welt der Bilder." ],
+          [ 5, "Sie ist die Matrix der Zukunft." ]
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "next": "question:100",
+      "video": {
+        "src": "P9"
+      },
+      "strings": {
+        "fr": [
+          [ 3, "Fermez les yeux!" ]
+        ],
+        "en": [
+          [ 3, "Close your eyes!" ]
+        ],
+        "de": [
+          [ 3, "Machen Sie Ihre Augen zu!" ]
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "next": "clip:9",
+      "video": {
+        "src": "P10"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Je n'ai pas peur du noir!" ]
+        ],
+        "en": [
+          [ 2, "I'm not afraid of the dark!" ]
+        ],
+        "de": [
+          [ 2, "Ich habe keine Angst vor der Dunkelheit!" ]
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "next": "question:17",
+      "video": {
+        "src": "P11"
+      },
+      "strings": {
+        "fr": [
+          [ 3, "J'aime ce que je sens quand je suis dans le noir." ]
+        ],
+        "en": [
+          [ 3, "I like what I feel in the dark." ]
+        ],
+        "de": [
+          [ 3, "Ich mag, was ich fühle, wenn ich im Dunkeln bin." ]
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "next": "question:undefined",
+      "video": {
+        "src": "P12"
+      },
+      "strings": {
+        "fr": [
+          [ 3, "Je sens différemment les choses." ]
+        ],
+        "en": [
+          [ 3, "I feel things differently." ]
+        ],
+        "de": [
+          [ 3, "Ich spüre die Dinge auf andere Weise." ]
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "next": "question:101",
+      "video": {
+        "src": "P13"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Le noir c'est l'aventure." ]
+        ],
+        "en": [
+          [ 2, "Darkness is adventure!" ]
+        ],
+        "de": [
+          [ 2, "Die Dunkelheit ist voller Abenteuer." ]
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "next": "clip:7",
+      "video": {
+        "src": "P14"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Oui je sais! Homme/femme. Jour/nuit.Blanc/noir.Ce n'est pas très nuancé tout ça!" ],
+          [ 10, "Disons qu'il y a aussi le gris l'aube et le crépuscule; l'amour et les enfants." ],
+          [ 18, "Les opposés se rejoignent." ]
+        ],
+        "en": [
+          [ 1, "Yes, I know! Man/woman. Day/night. White/black. It's not very subtle!" ],
+          [ 10, "Let's say that there is also gray ... dawn and dusk ... love and children." ],
+          [ 18, "Opposites meet!" ]
+        ],
+        "de": [
+          [ 1, "Ja, ich weiß! Mann/ Frau. Tag / Nacht. Weiß / schwarz." ],
+          [ 10, "Das ist nicht sehr nuanciert! Es gibt doch auch grau, die Morgen-und die Abenddämmerung, Liebe und Kinder." ],
+          [ 19, " =Gegensätze finden zueinander." ]
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "next": "clip:150",
+      "video": {
+        "src": "P15"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Vous avez trop à perdre? Dommage!" ]
+        ],
+        "en": [
+          [ 2, "You have too much to lose?  Too bad!" ]
+        ],
+        "de": [
+          [ 2, "Für Sie steht zu viel auf dem Spiel? Schade!" ]
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "next": "question:19",
+      "video": {
+        "src": "P16"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Si vous êtes d'accord, aimez-les femmes, vraiment." ],
+          [ 7, "Faites leur confiance et défendez les en public et en privé." ]
+        ],
+        "en": [
+          [ 1, "If you agree, love us truly." ],
+          [ 7, "Have confidence in us, defend us in public and in private." ]
+        ],
+        "de": [
+          [ 1, "Wenn Sie dem zustimmen, dann bringen Sie den Frauen wirklichen Respekt entgegen." ],
+          [ 7, "Vertrauen Sie ihnen und treten Sie für sie ein, in der Öffentlichkeit und privat." ]
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "next": "question:95",
+      "video": {
+        "src": "P17"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Il y a une tension entre le masculin et le féminin." ]
+        ],
+        "en": [
+          [ 2, "There is a tension between male and female." ]
+        ],
+        "de": [
+          [ 2, "Es gibt eine Spannung zwischen dem Männlichen und dem Weiblichen." ]
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "next": "question:5",
+      "video": {
+        "src": "P18"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Ça ne m'intéresse pas." ]
+        ],
+        "en": [
+          [ 2, "It doesn't interest me." ]
+        ],
+        "de": [
+          [ 2, "Das interessiert mich nicht." ]
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "next": "question:12",
+      "video": {
+        "src": "P19"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "Le politique!" ],
+          [ 3, "Vous avez raison. C'est l'avenir des femmes qui se joue, et avec elles, celui de l'humanité." ]
+        ],
+        "en": [
+          [ 0, "Politics!" ],
+          [ 3, "You're right. The future of women is at stake, and with it that of human kind." ]
+        ],
+        "de": [
+          [ 0, "Die Politik!" ],
+          [ 3, "Sie haben Recht. Die Zukunft der Frauen steht auf dem Spiel, und mit ihnen die der Menschheit." ]
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "next": "question:undefined",
+      "video": {
+        "src": "P20"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Rock and roll!" ]
+        ],
+        "en": [
+          [ 1, "Rock and roll!" ]
+        ],
+        "de": [
+          [ 1, "OK." ]
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "next": "question:15",
+      "video": {
+        "src": "P21"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Ah! vous manquez de temps. Et vous vous arrêtez pour moi!" ]
+        ],
+        "en": [
+          [ 1, "Ah, you lack time.  And you stop for me!" ]
+        ],
+        "de": [
+          [ 1, "Ah! Sie haben es eilig. Und haben trotzdem Zeit für mich!" ]
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "next": "question:97",
+      "video": {
+        "src": "P22"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Le sport! En faire, ou vous voulez dire le regarder à la télé?" ]
+        ],
+        "en": [
+          [ 1, "Sports?  You mean to do sports?... or to watch on T.V.?" ]
+        ],
+        "de": [
+          [ 1, "Sport! Sport treiben, oder im Fernsehen verfolgen?" ]
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "next": "clip:150",
+      "video": {
+        "src": "P23"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Ah non! Là vous me découragez!" ]
+        ],
+        "en": [
+          [ 1, "Oh no, now you're discouraging!" ]
+        ],
+        "de": [
+          [ 1, "Oh nein! Da enttäuschen Sie mich!" ]
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "next": "question:8",
+      "video": {
+        "src": "P24"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Mens sane in corpore sano. C'est ça?" ]
+        ],
+        "en": [
+          [ 1, "Mens sane in corpore sano, is that it?" ]
+        ],
+        "de": [
+          [ 1, "Mens sane in corpore sano. Richtig?" ]
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "next": "clip:122",
+      "video": {
+        "src": "P25"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Ça ne fait rien. Je disais ça comme ça!" ]
+        ],
+        "en": [
+          [ 1, "It doesn't matter.  I was just saying that without thinking." ]
+        ],
+        "de": [
+          [ 1, "Es spielt keine Rolle. Ich sagte das nur so!" ]
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "next": "clip:150",
+      "video": {
+        "src": "P26"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Cessons de voir la personne comme l'aboutissement de tout." ]
+        ],
+        "en": [
+          [ 1, "Let's stop seeing the person as the outcome of everything." ]
+        ],
+        "de": [
+          [ 1, "Hören wir doch auf, immer den Einzelnen in den Mittelpunkt zu stellen." ]
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "next": "question:7",
+      "video": {
+        "src": "P27"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Oui réglons nos différents autrement!" ],
+          [ 7, "Quand la confrontation mène à la violence, aux armes, ça ne vaut plus la peine." ],
+          [ 11, "C'est démesuré." ]
+        ],
+        "en": [
+          [ 2, "Yes, let's settle our differences another way!" ],
+          [ 7, " When confrontation leads to violence, to arms, it's no longer worth it." ],
+          [ 11, "It's out of proportion." ]
+        ],
+        "de": [
+          [ 2, "Ja, legen wir unsere Streitigkeit auf andere Weise bei!" ],
+          [ 7, "Wenn die Konfrontation zum Gebrauch von  Gewalt und Waffen führt, lohnt es sich nicht." ],
+          [ 11, "Es steht in keinerlei Verhältnis mehrs." ]
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "next": "question:16",
+      "video": {
+        "src": "P28"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Yes. \"L'Invention de Morel\"! ..." ],
+          [ 5, "It's the story of a man who, to escape his fate, exiles himself on a supposedly deserted island." ],
+          [ 10, "One day he meets a woman who seems unaware of his presence." ],
+          [ 19, "After days of anguish he discovers that she doesn't exist." ]
+        ],
+        "en": [
+          [ 2, "Yes. \"L'Invention de Morel\"! ..." ],
+          [ 5, "It's the story of a man who, to escape his fate, exiles himself on a supposedly deserted island." ],
+          [ 10, "One day he meets a woman who seems unaware of his presence." ],
+          [ 19, "After days of anguish he discovers that she doesn't exist." ]
+        ],
+        "de": [
+          [ 2, "Ja. \"Morels Erfindung\"! ..." ],
+          [ 5, "Es ist die Geschichte eines Mannes, der, um seinem Schicksal zu entkommen, sich auf eine scheinbar einsame  Insel zurückzieht." ],
+          [ 10, "Eines Tages trifft er eine Frau, die nichts von seiner Anwesenheit zu wissen scheint." ],
+          [ 19, "Nach Tagen der Angst entdeckt er, dass es sie nicht gibt." ]
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "next": "question:22",
+      "video": {
+        "src": "P29"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Est-ce que je vous connais?" ]
+        ],
+        "en": [
+          [ 2, "Do I know you?" ]
+        ],
+        "de": [
+          [ 2, "Kennen wir uns?" ]
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "next": "clip:150",
+      "video": {
+        "src": "P30"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Il le faut!" ]
+        ],
+        "en": [
+          [ 2, "It must be!" ]
+        ],
+        "de": [
+          [ 2, "Das muss man einfach!" ]
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "next": "question:88",
+      "video": {
+        "src": "P31"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "J'aimais voyager!" ]
+        ],
+        "en": [
+          [ 1, "I liked to travel!" ]
+        ],
+        "de": [
+          [ 1, "Ich bin gerne gereist!" ]
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "next": "question:94",
+      "video": {
+        "src": "P32"
+      },
+      "strings": {
+        "fr": [
+          [ 3, "Je n'ai que mon passé." ],
+          [ 7, "Le temps pour moi s'est arrêté le jour où je suis devenue ce que je suis maintenant." ]
+        ],
+        "en": [
+          [ 3, "I have only my past!" ],
+          [ 7, "Time stopped for me the day I became what I am now." ]
+        ],
+        "de": [
+          [ 3, "Mir bleibt nur meine Vergangenheit." ],
+          [ 7, "Die Zeit stoppte für mich an dem Tag, an dem ich zu dem wurde, was ich jetzt bin." ]
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "next": "question:86",
+      "video": {
+        "src": "P33"
+      },
+      "strings": {
+        "fr": [
+          [ 3, "Vivre!" ]
+        ],
+        "en": [
+          [ 3, "To live!" ]
+        ],
+        "de": [
+          [ 3, "Genießen wir das Leben!" ]
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "next": "question:82",
+      "video": {
+        "src": "P34"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Qui suis-je pour dire ça." ],
+          [ 5, "Je ne suis pas comme vous." ]
+        ],
+        "en": [
+          [ 2, "Who am I to say that!" ],
+          [ 5, "I'm not like you!" ]
+        ],
+        "de": [
+          [ 2, "Wer bin ich schon, um das zu sagen." ],
+          [ 5, "Ich bin nicht wie Sie." ]
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "next": "question:81",
+      "video": {
+        "src": "P35"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Pourquoi pas! La curiosité c'est une forme d'intelligence non!" ],
+          [ 6, "N'est-ce pas ce qui permet de se dépasser?" ]
+        ],
+        "en": [
+          [ 1, "Why not!  Curiosity is a form of intelligence, is it not?" ],
+          [ 6, "Isn't it what allows us to surpass ourselves?" ]
+        ],
+        "de": [
+          [ 1, "Warum nicht! Neugier ist eine Form der Intelligenz, nicht wahr!" ],
+          [ 6, "Ermöglicht sie einem nicht, sich selbst zu übertreffen?" ]
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "next": "question:84",
+      "video": {
+        "src": "P36"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Avec moi c'est trop facile." ],
+          [ 4, "Je ne peux être que l'amour impossible, un détour qui occupe le désir sans risque de casse!" ],
+          [ 10, "Quand vous vous détournerez de moi, oserez vous échanger un regard?" ]
+        ],
+        "en": [
+          [ 1, "With me it's too easy." ],
+          [ 4, "I can only be the impossible love, a detour which occupies the desire at no risk." ],
+          [ 10, "When you'll turn away from me, will you dare exchange a glance with the nearby onlooker?" ]
+        ],
+        "de": [
+          [ 1, "Mit mir ist das zu einfach." ],
+          [ 4, "Ich kann nur die unmögliche Liebe sein, ein Umweg, der kurz mal ohne Risiko das Verlangen stillt!" ],
+          [ 10, "Wenn Sie sich von mir abwenden, würden Sie es wagen,  anderen einen Blick zuzuwerfen?" ]
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "next": "question:80",
+      "video": {
+        "src": "P37"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "C'est vrai qu'on peut avoir peur. Peur de se laisser aimer. L'amour de l'autre qui nous menace. Vive l'amour impossible!" ],
+          [ 11, "Tiens, je pourrais vous dire que je vous aime... Je vous aime! Mais en quoi est-ce que ça m'engage?" ],
+          [ 20, "Vous, vous n'avez pas peur?" ]
+        ],
+        "en": [
+          [ 1, "It is true that we can be scared! Scared to let ourselves be loved.  The threatening love of another.  Long live the impossible love!" ],
+          [ 11, "See ... I could tell you that I love you ... I love you! But how does that commit me?" ],
+          [ 20, "You ... you are not afraid?" ]
+        ],
+        "de": [
+          [ 1, "Es stimmt, dass wir Angst haben können, geliebt zu werden. Die Liebe eines anderen, die uns bedroht. Es lebe die unmögliche Liebe!" ],
+          [ 11, "Ich könnte Ihnen sagen, dass ich Sie liebe ... Ich liebe Sie!Aber inwieweit bindet  mich das?" ],
+          [ 20, "Haben Sie keine Angst?" ]
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "next": "question:undefined",
+      "video": {
+        "src": "P38"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "L'amour est libre. Pourquoi l'attacher? Simplement l'accepter, le laisser être ce qu'il est." ],
+          [ 9, "Aller jusqu'au bout c'est pas toujours dangereux!" ]
+        ],
+        "en": [
+          [ 2, "Love is free, why tie it up? To simply accept it, to let it be." ],
+          [ 9, "Following the path to the end is not always hazardous!" ]
+        ],
+        "de": [
+          [ 2, "Die Liebe ist frei. Warum sie einschränken? Man sollte sie einfach akzeptieren, sie sein lassen, was sie ist." ],
+          [ 9, "Konsequent zu sein ist nicht immer gefährlich!" ]
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "next": "clip:150",
+      "video": {
+        "src": "P39"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Vous savez les choses ne sont pas toujours si simples." ],
+          [ 6, "Vous vous faites une idée de ce que les choses sont et puis il arrive que c'est pas ça." ],
+          [ 11, "C'est fou ce qu'il y a de préjugés entre les gens. Ça compromet beaucoup de choses." ],
+          [ 14, "Vous ne trouvez-pas?" ]
+        ],
+        "en": [
+          [ 2, "You know... Things are not always that simple." ],
+          [ 6, "You make up your mind about them, and then you turn out to be wrong!" ],
+          [ 11, "It's amazing how prejudiced people are against one another.  It jeopardizes many things." ],
+          [ 14, "Don't you find?" ]
+        ],
+        "de": [
+          [ 2, "Wissen Sie, die Dinge sind nicht immer so einfach." ],
+          [ 6, "Man macht sich eine Vorstellung davon, wie die Dinge sind, und dann stellt es sich heraus, dass es nicht so ist." ],
+          [ 11, "Es ist erstaunlich, wie viele Vorurteile es zwischen Menschen gibt." ],
+          [ 14, "Dadurch verpasst man so viel. Finden Sie nicht" ]
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "next": "question:78",
+      "video": {
+        "src": "P40"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Est-ce qu'il faut avoir peur?" ],
+          [ 4, "Est-ce que je devrais avoir peur de vous?" ]
+        ],
+        "en": [
+          [ 2, "Should I be afraid?" ],
+          [ 4, "Should I be afraid of you?" ]
+        ],
+        "de": [
+          [ 2, "Hätte ich Angst haben sollen?" ],
+          [ 4, "Müsste ich Angst vor Ihnen haben?" ]
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "next": "question:85",
+      "video": {
+        "src": "P41"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "En voyage, j'ai souvent dormi seule à la belle étoile... Sous les étoiles je m'endormais facilement." ],
+          [ 6, "Peur? non! Sauf peut-être quand je me réveillais au milieu de la nuit. Je n'aimais pas ça." ]
+        ],
+        "en": [
+          [ 1, "On trips I often slept alone in the open.  Under the stars I would fall asleep easily." ],
+          [ 6, "Afraid?  No!  Except maybe when I woke up in the middle of the night.  I didn't like that." ]
+        ],
+        "de": [
+          [ 1, "Unterwegs habe ich häufig unter freiem Himmel geschlafen ... Unter den Sternen konnte ich mühelos einschlafen." ],
+          [ 6, "Angst? Nein! Außer vielleicht, wenn ich mitten in der  Nacht aufwachte. Das mochte ich nicht." ]
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "next": "clip:150",
+      "video": {
+        "src": "P42"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "" ]
+        ],
+        "en": [
+          [ 0, "" ]
+        ],
+        "de": [
+          [ 0, "" ]
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "next": "question:98",
+      "video": {
+        "src": "P47"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "J'aimais voyager à pied. Dormir dehors. Juste une couverture." ],
+          [ 6, "La vie simple." ]
+        ],
+        "en": [
+          [ 1, "I enjoyed travelling on foot. Sleeping outside without anything. Just a cover." ],
+          [ 6, "Simple life." ]
+        ],
+        "de": [
+          [ 1, "Ich war gerne zu Fuß unterwegs. Habe unter freiem Himmel geschlafen. Nur mit einer Decke." ],
+          [ 6, "Ein einfaches Leben." ]
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "next": "clip:150",
+      "video": {
+        "src": "P48"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Le risque n'a pour moi aucune valeur." ],
+          [ 4, "Aller jusqu'au bout : oui!" ],
+          [ 6, "Risquer : non!" ]
+        ],
+        "en": [
+          [ 2, "Risk has no value for me." ],
+          [ 4, "To go to the end:  yes." ],
+          [ 6, "To risk: no." ]
+        ],
+        "de": [
+          [ 2, "Das Risiko an sich hat keinen Wert für mich." ],
+          [ 4, "Über mich hinauswachsen: Ja!" ],
+          [ 6, "Risiko : Nein!" ]
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "next": "clip:119",
+      "video": {
+        "src": "P49"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Je suis en face de chez ma grand-mère à coté des rosiers." ],
+          [ 6, "Il suffit que je le veuille pour voler." ],
+          [ 9, "Je me penche en avant, je soulève les jambes, et je m'élève..." ]
+        ],
+        "en": [
+          [ 2, "I'm in front of grandma's, next to the rosebushes." ],
+          [ 6, "I just have to wish it to be able to fly." ],
+          [ 9, "I bend forward, my legs come up, and I rise." ]
+        ],
+        "de": [
+          [ 2, "Ich befinde mich gegenüber vom Haus meiner Großmutter neben Rosenbüschen." ],
+          [ 6, "Wenn ich wollte, könnte ich fliegen." ],
+          [ 9, "Ich neige mich nach vorne, ich hebe die Beine an und  steige empor ..." ]
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "next": "question:89",
+      "video": {
+        "src": "P50"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "J'aimais marcher. J'ai parcourue à pied de grandes distances." ],
+          [ 6, "Avec presque rien: un sac, une couverture, des aliments secs, de l'eau. Ça suffisait." ],
+          [ 12, "Je couchais à la belle étoile. Je rencontrais des animaux, des gens. C'était bien!" ]
+        ],
+        "en": [
+          [ 1, "I liked walking.  I walked long distances." ],
+          [ 6, "With almost nothing: a bag, a cover, dry food, water.  It was enough." ],
+          [ 12, "I slept in the open. I met animals, people. It was nice!" ]
+        ],
+        "de": [
+          [ 1, "Ich bin gerne gewandert. Ich habe lange Strecken zu Fuß zurückgelegt. " ],
+          [ 6, "Mit fast gar nichts: einer Tasche, einer Decke, Trockennahrung, Wasser. Das reichte." ],
+          [ 12, "Ich schlief unter freiem Himmel. Ich traf Tiere, Menschen. Es war schön!" ]
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "next": "question:90",
+      "video": {
+        "src": "P51"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Je me souviens de chênes." ],
+          [ 6, "De grands chênes ouverts dans le ciel..." ]
+        ],
+        "en": [
+          [ 2, "I remember oak trees." ],
+          [ 6, "Tall oaks soaring into the sky." ]
+        ],
+        "de": [
+          [ 2, "Ich erinnere mich an Eichen." ],
+          [ 6, "Riesige Eichen, die in den Himmel ragten..." ]
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "next": "question:91",
+      "video": {
+        "src": "P52"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "L'odeur de terre mouillée..." ]
+        ],
+        "en": [
+          [ 1, "The smell of moist earth..." ]
+        ],
+        "de": [
+          [ 1, "Den Geruch von feuchter Erde ..." ]
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "next": "question:92",
+      "video": {
+        "src": "P53"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Le souffle du vent sur mon cou..." ]
+        ],
+        "en": [
+          [ 2, "The breath of the wind on my neck..." ]
+        ],
+        "de": [
+          [ 2, "Den Wind in meinem Nacken ..." ]
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "next": "question:35",
+      "video": {
+        "src": "P54"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Le silence feutré d'une pinède..." ],
+          [ 7, "Vous me plaisez!" ]
+        ],
+        "en": [
+          [ 2, "The muffled silence of a pine forest..." ],
+          [ 7, "I like you!" ]
+        ],
+        "de": [
+          [ 2, "Die gedämpfte Stille eines Kiefernhains..." ],
+          [ 7, "Sie gefallen mir!" ]
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "next": "question:34",
+      "video": {
+        "src": "P55"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Un poème." ],
+          [ 4, "Des signes qui courent sur le mur qui touche la ligne qui suit la lampe qui éclaire ton visage qui dort reposé sur le fauteuil..." ],
+          [ 15, "et je m'avance silencieusement pour ne pas te réveiller mais tu ouvres un oeil." ],
+          [ 23, "Alors je souris : j'ai manquée mon coup." ]
+        ],
+        "en": [
+          [ 1, "A poem." ],
+          [ 4, "Signs on the walls that run on my skin that follows the line up to the lamp that lights your face sleeping on the coach..." ],
+          [ 15, "and I come closer silently so as not to wake you but you open your eyes and look at me." ],
+          [ 23, "Then I smile.  I failed." ]
+        ],
+        "de": [
+          [ 1, "Ein Gedicht." ],
+          [ 4, "Zeichen, die über die Wand laufen, welche die Linie berührt, die der Lampe folgt, welche Dein Gesicht beleuchtet, das im Sessel ruht..." ],
+          [ 15, "und ich bewege mich lautlos, um Dich nicht zu wecken, aber Du schlägst ein Auge auf." ],
+          [ 23, "Und ich muss lächeln: ich habe verloren." ]
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "next": "clip:0",
+      "video": {
+        "src": "P56"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "(Pseudo suédois)" ]
+        ],
+        "en": [
+          [ 0, "(False Swedish)" ]
+        ],
+        "de": [
+          [ 0, "(Schwedisch)" ]
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "next": "clip:150",
+      "video": {
+        "src": "P57"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "(Pseudo italien)" ]
+        ],
+        "en": [
+          [ 0, "(False Italian)" ]
+        ],
+        "de": [
+          [ 0, "(Italienisch)" ]
+        ]
+      }
+    },
+    {
+      "id": 52,
+      "next": "question:75",
+      "video": {
+        "src": "P58"
+      },
+      "strings": {
+        "fr": [
+          [ 4, "Pas trop. Enfin pas avec vous..." ],
+          [ 9, "Vous ne m'intimidez pas!" ],
+          [ 14, "Ça va?" ]
+        ],
+        "en": [
+          [ 4, "Not too much.  Well, not with you..." ],
+          [ 9, "What I mean is ... you don't intimidate me." ],
+          [ 14, "Is everything O.K.?" ]
+        ],
+        "de": [
+          [ 4, "Nicht wirklich. Zumindest nicht Sie ..." ],
+          [ 9, "Sie schüchtern mich nicht ein!" ],
+          [ 14, "Ist das OK?" ]
+        ]
+      }
+    },
+    {
+      "id": 53,
+      "next": "question:2",
+      "video": {
+        "src": "P59"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Vous avez raison. Il y a un problème d'éthique." ],
+          [ 4, "A quel moment le geste d'acquérir une oeuvre devient-il un enlèvement?" ],
+          [ 10, "Imaginez-moi chez-vous! Ça n'a pas de sens." ]
+        ],
+        "en": [
+          [ 1, "You're right!  There is an ethical problem." ],
+          [ 4, "Where should one draw the line between acquiring a work and kidnapping it?" ],
+          [ 10, "Picture me at your place! It doesn't make sense." ]
+        ],
+        "de": [
+          [ 1, "Sie haben recht. Es ist ein ethisches Problem." ],
+          [ 4, "Wann wird der Erwerb eines Werks zu einer Entführung?" ],
+          [ 10, "Stellen Sie sich nur mal vor, dass ich bei Ihnen zu Hause wäre! Das hätte gar keinen Sinn." ]
+        ]
+      }
+    },
+    {
+      "id": 54,
+      "next": "clip:150",
+      "video": {
+        "src": "P60"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Parlez à mon agent." ]
+        ],
+        "en": [
+          [ 2, "Speak to my agent." ]
+        ],
+        "de": [
+          [ 2, "Sprechen Sie mit meinem Agenten." ]
+        ]
+      }
+    },
+    {
+      "id": 55,
+      "next": "clip:0",
+      "video": {
+        "src": "P61"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "(Un , deux, trois,... cent)" ]
+        ],
+        "en": [
+          [ 2, "(counting)" ]
+        ],
+        "de": [
+          [ 2, "(Eins, zwei, drei… hundert)" ]
+        ]
+      }
+    },
+    {
+      "id": 56,
+      "next": "question:70",
+      "video": {
+        "src": "P62"
+      },
+      "strings": {
+        "fr": [
+          [ 3, "Le cinéma, c'est fascinant." ],
+          [ 6, "Le spectateur est toujours là à épier tout ce qui se passe et personne dans le film ne s'en rend compte." ],
+          [ 13, "Voir sans être vu. Du voyeurisme de première classe." ],
+          [ 22, "Moi je vous regarde dans les yeux!" ]
+        ],
+        "en": [
+          [ 3, "Movies!  Fascinating." ],
+          [ 6, "The audience watches closely everything that goes on, and no one on screen realizes it." ],
+          [ 13, "To see without being seen.  First-class voyeurism." ],
+          [ 22, "I look at you in the eyes!" ]
+        ],
+        "de": [
+          [ 3, "Das Kino ist faszinierend." ],
+          [ 6, "Der Zuschauer beobachtet alles, was geschieht, was im Film niemand bemerkt." ],
+          [ 13, "Sehen, ohne gesehen zu werden. Voyeurismus erster Klasse." ],
+          [ 22, "Ich aber schaue Ihnen in die Augen!" ]
+        ]
+      }
+    },
+    {
+      "id": 57,
+      "next": "question:68",
+      "video": {
+        "src": "P63"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "J'ai bien peur que oui!" ],
+          [ 5, "Soyons amis." ]
+        ],
+        "en": [
+          [ 2, "I'm afraid so!" ],
+          [ 5, "Let's be friends ..." ]
+        ],
+        "de": [
+          [ 2, "Ich fürchte, das stimmt!" ],
+          [ 5, "Lassen Sie uns Freunde sein." ]
+        ]
+      }
+    },
+    {
+      "id": 58,
+      "next": "question:67",
+      "video": {
+        "src": "P64"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "Parce que je suis un portrait!" ],
+          [ 3, "Mon existence réelle est ailleurs." ]
+        ],
+        "en": [
+          [ 0, "Because I'm a portrait!" ],
+          [ 3, "My real existence lies elsewhere." ]
+        ],
+        "de": [
+          [ 0, "Weil ich ein Porträt bin!" ],
+          [ 3, "Mein wirkliches Leben ist woanders." ]
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "next": "question:65",
+      "video": {
+        "src": "P65"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Ecoutez, je peux bien m'amuser un peu!" ],
+          [ 4, "Toute la journée je vois défiler des gens. Avec vous, il pourrait peut-être se passer quelque chose." ],
+          [ 8, "Enfin... je ne voudrais pas m'imposer! Etes-vous pressé(e)?" ]
+        ],
+        "en": [
+          [ 1, "Listen!  I'm allowed a little fun." ],
+          [ 4, "All day I see people streaming by. With you something might happen." ],
+          [ 8, "Well ... I wouldn't want to impose! Are you in a hurry?" ]
+        ],
+        "de": [
+          [ 1, "Hören Sie, ich kann doch ein wenig Spaß haben!" ],
+          [ 4, "Den ganzen Tag sehe ich Leute vorbei gehen. Mit Ihnen könnte vielleicht etwas passieren." ],
+          [ 8, "Nun ... Ich will mich nicht aufdrängen! Haben Sie es eilig?" ]
+        ]
+      }
+    },
+    {
+      "id": 60,
+      "next": "clip:150",
+      "video": {
+        "src": "P66"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "You're right!  There's nothing one can do." ]
+        ],
+        "en": [
+          [ 1, "You're right. There's nothing we can do." ]
+        ],
+        "de": [
+          [ 1, "Sie haben recht! Da kann man nichts machen." ]
+        ]
+      }
+    },
+    {
+      "id": 61,
+      "next": "question:72",
+      "video": {
+        "src": "P67"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Vous ne vous intéressez pas à l'art..." ],
+          [ 7, "Moi non plus! Je suis trop occupée pour ça!" ],
+          [ 11, "Je porte plutôt attention aux gens, ceux qui sont ici." ],
+          [ 15, "À vous par exemple!" ]
+        ],
+        "en": [
+          [ 1, "You're not interested in art!" ],
+          [ 7, "Neither am I. I'm much too busy." ],
+          [ 11, "I'd rather pay attention to people, to the ones that are here." ],
+          [ 15, "You, for example!" ]
+        ],
+        "de": [
+          [ 1, "Sie interessieren sich nicht für Kunst ..." ],
+          [ 7, "Ich auch nicht! Ich bin dazu viel zu beschäftigt!" ],
+          [ 11, "Ich achte mehr auf die Menschen, die hier sind." ],
+          [ 15, "Wie Sie zum Beispiel!" ]
+        ]
+      }
+    },
+    {
+      "id": 62,
+      "next": "question:69",
+      "video": {
+        "src": "P68"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Pourtant!... Moi je m'y promènerais comme dans un parc." ],
+          [ 6, "Par principe je ne m'intéresserais à rien. J'attendrais d'être surprise par quelque chose." ],
+          [ 13, "A l'occasion, une oeuvre attirerait mon attention et j'aurais envie de me remettre au travail." ],
+          [ 21, "M'écoutez vous?" ]
+        ],
+        "en": [
+          [ 1, "Yet ... I would stroll through it as if in a park." ],
+          [ 6, "On principle I would pay no special attention.  I would wait to be surprised by something." ],
+          [ 13, "Occasionally a work would draw my attention (and I would feel like putting myself back to work!)." ],
+          [ 21, "Are you listening to me?" ]
+        ],
+        "de": [
+          [ 1, "Und doch! ... Ich würde dort wie in einem Park spazieren gehen." ],
+          [ 6, "Grundsätzlich würde ich mich für gar nichts interessieren. Ich würde darauf warten, dass mich  etwas überrascht." ],
+          [ 13, "Gelegentlich würde ein Werk mein Interesse wecken und mir Lust geben, mich wieder an die Arbeit zu machen." ],
+          [ 21, "Hören Sie mir zu?" ]
+        ]
+      }
+    },
+    {
+      "id": 63,
+      "next": "question:62",
+      "video": {
+        "src": "P69"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Oui l'art! Je suis un portrait comme les musées en sont remplis." ],
+          [ 6, "Tous ces visages immortels qui s'ajoutent à ceux qui sont vivants pour peupler l'humanité." ],
+          [ 11, "Aimez-vous les musées?" ]
+        ],
+        "en": [
+          [ 1, "Yes, art!  I am a portrait like the ones that fill museums." ],
+          [ 6, "All these immortal physiognomies that add themselves to the faces of the living that make up human kind." ],
+          [ 11, "Do you like museums?" ]
+        ],
+        "de": [
+          [ 1, "Ach ja, die  Kunst! Ich bin ein Porträt wie es sie reihenweise in Museen gibt." ],
+          [ 6, "All diese unsterblichen Gesichter  neben jenen, die noch am Leben  sind und die Menschheit bevölkern." ],
+          [ 11, "Mögen Sie Museen?" ]
+        ]
+      }
+    },
+    {
+      "id": 64,
+      "next": "clip:150",
+      "video": {
+        "src": "P70"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Pourtant, il le faut!" ]
+        ],
+        "en": [
+          [ 2, "But it must be!" ]
+        ],
+        "de": [
+          [ 2, "Und doch muss es sein!" ]
+        ]
+      }
+    },
+    {
+      "id": 65,
+      "next": "question:30",
+      "video": {
+        "src": "P71"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Vous me faites regretter mon existence." ],
+          [ 4, "Parlez-moi de vous!" ]
+        ],
+        "en": [
+          [ 1, "You make me regret my existence." ],
+          [ 4, "Tell me about yourself!" ]
+        ],
+        "de": [
+          [ 1, "Sie lassen mich meine Existenz bereuen." ],
+          [ 4, "Erzählen Sie mir von sich!" ]
+        ]
+      }
+    },
+    {
+      "id": 66,
+      "next": "question:61",
+      "video": {
+        "src": "P72"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Oui, mais avec moi malheureusement votre geste est sans conséquences." ],
+          [ 5, "En ferez-vous autant avec la personne qui se trouvera près de vous?" ]
+        ],
+        "en": [
+          [ 1, "Yes but with me, unfortunately, your gesture doesn't bear any consequences." ],
+          [ 5, "Will you dare as much with the person that's standing by?" ]
+        ],
+        "de": [
+          [ 1, "Ja, aber leider ist bei mir Ihre Geste ohne Folgen." ],
+          [ 5, "Würden Sie dies auch mit einer Person tun, die in Ihrer Nähe ist?" ]
+        ]
+      }
+    },
+    {
+      "id": 67,
+      "next": "question:60",
+      "video": {
+        "src": "P73"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Voici ce que je pense." ],
+          [ 7, "Les autres sont tout près et pourtant il sont si loin! Le geste le plus créatif est celui qui conduit vers l'autre." ],
+          [ 19, "Ce geste n'est jamais inutile. Des alliances se forment. Des enfants naissent. Des actions sont prises. Des systèmes sont institués." ],
+          [ 30, "Tout ça à cause d'un geste, d'une parole." ],
+          [ 37, "C'est fou! Nous en sommes le fruit et sans cesse ce geste vers l'autre..." ],
+          [ 43, "il faut le refaire!" ]
+        ],
+        "en": [
+          [ 1, "Here is what I think." ],
+          [ 7, "The others are very close yet so far away! The most creative gesture is the one that leads to another human being." ],
+          [ 19, "This gesture is not useless.  Bonds are made.  Children are born. Actions are taken.  Systems are instituted." ],
+          [ 30, "All of it because of one gesture, one word." ],
+          [ 37, "It's crazy!  We are the product of this gesture toward another person..." ],
+          [ 43, "and it has to be repeated forever." ]
+        ],
+        "de": [
+          [ 1, "Ich denke Folgendes." ],
+          [ 7, "Die anderen sind ganz nah und doch so fern! Die kreativste Geste ist jene, die einem dem anderen näher bringt." ],
+          [ 19, "Eine derartige Geste ist nie unnütz. Bündnisse werden gebildet. Kinder werden geboren. Maßnahmen werden ergriffen. Systeme werden eingerichtet." ],
+          [ 30, "Alles wegen einer Geste, eines Wortes." ],
+          [ 37, "Das ist verrückt! Wir sind daraus hervorgegangen und diese Geste..." ],
+          [ 43, "zum anderen muss ständig wiederholt werden!" ]
+        ]
+      }
+    },
+    {
+      "id": 68,
+      "next": "question:59",
+      "video": {
+        "src": "P74"
+      },
+      "strings": {
+        "fr": [
+          [ 3, "C'est vrai que je suis inateignable. C'est vrai que vous ne pouvez pas me changer." ],
+          [ 11, "Mais regardez ces gens qui sont autour de vous : sont-ils si différents de moi? Le sont ils, eux, atteignables?" ],
+          [ 21, "Il y en a qui croient que la communion des êtres est une grande illusion." ]
+        ],
+        "en": [
+          [ 3, "It is true that you cannot reach me, that you can't change me." ],
+          [ 11, "But look at the people around you:  Are they so different from me?  Can they be reached?" ],
+          [ 21, "Some believe that it is impossible to be in communion with a person, that it is a great illusion." ]
+        ],
+        "de": [
+          [ 3, "Es stimmt, dass ich unerreichbar bin. Es stimmt, dass Sie mich nicht ändern können." ],
+          [ 11, "Aber schauen Sie sich doch mal die Menschen an, die Sie umgeben: sind sie so anders als ich? Sind sie denn erreichbar?" ],
+          [ 21, "Einige sind der Ansicht, dass die Gemeinschaft der Menschen eine einzige Illusion ist." ]
+        ]
+      }
+    },
+    {
+      "id": 69,
+      "next": "question:57",
+      "video": {
+        "src": "P75"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Je suis une illusion!" ],
+          [ 4, "Vous connaissez Bjoy-Casares, l'écrivain ami de Borges. Il a écrit en 1952 une histoire qui ressemble à la nôtre." ],
+          [ 13, "Son personnage est comme vous. Il cherche à entrer en contact avec une personne qu'il croît réelle mais qui a cessé de vivre depuis longtemps." ],
+          [ 23, "Il ne s'en rend compte que trop tard." ]
+        ],
+        "en": [
+          [ 2, "I'm an illusion!" ],
+          [ 4, "Do you know Bjoy-Casares, a writer and friend of Borges, who wrote in 1952 a story that resembles ours." ],
+          [ 13, "His character is like you.  He tries to make contact with a person that he thinks is real but died long ago." ],
+          [ 23, "He realizes too late." ]
+        ],
+        "de": [
+          [ 2, "Ich bin eine Illusion!" ],
+          [ 4, "Sie kennen den Schriftsteller Bjoy-Casares, ein Freund von Borges. 1952 schrieb er eine Geschichte, die der unseren ähnelt." ],
+          [ 13, "Sein Protagonist ist wie Sie. Er versucht, mit einer Person in Kontakt zu treten, die er für wirklich hält, die aber schon seit langem nicht mehr lebt." ],
+          [ 23, "Das bemerkt er zu spät." ]
+        ]
+      }
+    },
+    {
+      "id": 70,
+      "next": "question:56",
+      "video": {
+        "src": "P76"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Je suis dans la nature organisée, celle qui exorcise l'incontrôlable et transgresse les limites de l'immédiat." ],
+          [ 9, "Je suis l'art." ]
+        ],
+        "en": [
+          [ 1, "I am in the organized nature, that which exorcizes the uncontrollable and trangresses the limits of what is immediate." ],
+          [ 9, "I am art." ]
+        ],
+        "de": [
+          [ 1, "Ich lebe in der organisierten Natur, die das Unkontrollierbare bannt  und sich über die Grenzen des Unmittelbaren hinwegsetzt." ],
+          [ 9, "Ich bin Kunst." ]
+        ]
+      }
+    },
+    {
+      "id": 71,
+      "next": "question:58",
+      "video": {
+        "src": "P77"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Absurde et inévitable, oui!" ]
+        ],
+        "en": [
+          [ 2, "Absurd and unavoidable, yes!" ]
+        ],
+        "de": [
+          [ 2, "Absurd und unvermeidlich!" ]
+        ]
+      }
+    },
+    {
+      "id": 72,
+      "next": "question:20",
+      "video": {
+        "src": "P78"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "La transfiguration c'est ce que vous lisez sur un visage qui continue de vous étonner." ],
+          [ 7, "Vous vous faites une image de l'autre et cette image est détruite à chaque rencontre." ],
+          [ 15, "Ou encore, elle s'estompe irrémédiablement." ],
+          [ 19, "Dans ce cas vous devez vivre avec cette personne." ]
+        ],
+        "en": [
+          [ 1, "Transfiguration is what you read on a face that continues to amaze you." ],
+          [ 7, "You make up an image of the other person, and this image is destroyed every time you meet." ],
+          [ 15, "Or else, the image blurs irremediably." ],
+          [ 19, "In such a case you must live with that person." ]
+        ],
+        "de": [
+          [ 1, "Die Verklärung ist, was Sie auf einem Gesicht lesen, das Sie weiterhin in Erstaunen zu versetzen vermag." ],
+          [ 7, "Sie machen sich ein Bild vom anderen und dieses Bild wird bei jeder Begegnung erneut zerstört." ],
+          [ 15, "Oder es wird für immer verwischt." ],
+          [ 19, "In diesem Fall müssen Sie mit dieser Person leben." ]
+        ]
+      }
+    },
+    {
+      "id": 73,
+      "next": "question:13",
+      "video": {
+        "src": "P79"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Un jour je marchais dans la rue. Il pleuvait." ],
+          [ 9, "J'ai croisé un jeune homme que j'avais déjà aperçue. J'ai senti qu'il me regardait." ],
+          [ 16, "Je me suis retournée et j'ai fait comme dans les films : Un signe avec tout mon corps qui voulait dire : suis-moi, viens me rejoindre." ],
+          [ 26, "Je n'étais pas surprise lorsque, quelques minutes plus tard, il me rejoignait au café." ],
+          [ 33, "On était complice du jeu. On ne faisait pas semblant de ne pas savoir." ],
+          [ 38, "On a parlé de cinéma." ]
+        ],
+        "en": [
+          [ 2, "One day I was walking down the street.  It was raining." ],
+          [ 9, "I passed a young man that I had noticed before.  I felt he was staring at me." ],
+          [ 16, "I turned around and did as in the movies, I signalled with my whole body:  Come, follow me." ],
+          [ 26, "I was not surprised when, a few minutes later, he met me at the café." ],
+          [ 33, "We were friends in play.  We did not pretend we didn't know." ],
+          [ 38, "We talked about movies." ]
+        ],
+        "de": [
+          [ 2, "Eines Tages war ich auf der Straße. Es regnete." ],
+          [ 9, "Ich traf einen jungen Mann, den ich schon bemerkt hatte. Ich spürte, dass er mich ansah." ],
+          [ 16, "Ich habe mich umgedreht und es genau wie im Film gemacht: mit einem Zeichen meines ganzen Körpers lud ich ihn ein, mir zu folgen" ],
+          [ 26, "Ich war nicht weiter überrascht, als er sich ein paar Minuten darauf im Café zu mir gesellte." ],
+          [ 33, "Wir spielten beide das Spiel. Wir taten nicht so, als wüssten wir von nichts." ],
+          [ 38, "Wir sprachen über Filme." ]
+        ]
+      }
+    },
+    {
+      "id": 74,
+      "next": "question:76",
+      "video": {
+        "src": "P80"
+      },
+      "strings": {
+        "fr": [
+          [ 3, "Je vais vous raconter une histoire cocasse qui m'est arrivée." ],
+          [ 9, "J'étais avec une amie sur la rue à New York. On rencontre un jeune homme qu'elle me présente. Lui tombe immédiatement amoureux de moi." ],
+          [ 23, "Il m'invite au cinéma mais je lui propose plutôt de voir une exposition (A room full of earth)." ],
+          [ 33, "On la cherche partout et on ne trouve pas. On entre dans une galerie où il y avait des gravures japonaises érotiques." ],
+          [ 48, "J'étais mal à l'aise. C'était une rencontre disons... particulière!"          ]
+        ],
+        "en": [
+          [ 3, "I'll tell you about something funny that happened to me." ],
+          [ 9, "I was introduced to a young man. One day, on the street, in New York. He fell in love with me at once." ],
+          [ 23, "He asked me if I wanted to go to the movies.  I suggested an exhibition (\"A Room Full of Earth\")." ],
+          [ 33, "We tried to find it without any luck.  Instead we came upon an exhibit of erotic japanese etchings." ],
+          [ 48, "I was embarrassed. On a first date.  It was ... special." ]
+        ],
+        "de": [
+          [ 3, "Ich werde Ihnen eine witzige Geschichte erzählen, die mir passiert ist." ],
+          [ 9, "Ich war mit einer Freundin in New York auf der Straße. Wir trafen einen jungen Mann, den sie mir vorgestellte. Er verliebte sich sofort in mich." ],
+          [ 23, "Er lud mich ins Kino ein, ich aber schlug ihm vor, stattdessen zu einer Ausstellung (\"A Room full of Earth\") zu gehen." ],
+          [ 33, "Wir suchten sie überall und konnten sie nicht finden. Wir gingen in eine Galerie mit erotischen japanischen Holzschnitten." ],
+          [ 48, "Mir war das peinlich. Es war eine... sagen wir mal, eine ungewöhnliche Begegnung!" ]
+        ]
+      }
+    },
+    {
+      "id": 75,
+      "next": "clip:119",
+      "video": {
+        "src": "P81"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Le plus drôle c'est qu'un jour je raconte cette histoire à un ami..." ],
+          [ 6, "qui lui a vu l'exposition \"A Room Full of Earth\"." ],
+          [ 9, "Et il paraît que c'est une pièce remplie de terre." ]
+        ],
+        "en": [
+          [ 2, "The funniest part is that I once told a friend about the incident." ],
+          [ 6, "He recalled having seen the exhibition we had been looking for." ],
+          [ 9, "It was a room full of earth." ]
+        ],
+        "de": [
+          [ 2, "Das Komische ist, dass ich eines Tages diese Geschichte einem Freund..." ],
+          [ 6, "der selber die Ausstellung \"A Room Full of Earth\" gesehen hat, erzählt habe." ],
+          [ 9, "Und anscheinend ist es wirklich ein Raum voller Erde." ]
+        ]
+      }
+    },
+    {
+      "id": 76,
+      "next": "question:undefined",
+      "video": {
+        "src": "P82"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Je séjournais en Norvège. J'avais trouvé une petite carte d'état major sur laquelle il y avait une ligne pointillée. Un sentier probablement." ],
+          [ 10, "C'était l'été. Il faisait chaud. Je suis partie à pied. Il a fallu traverser un torrent. Je me suis déshabillée et je me suis baignée." ],
+          [ 25, "L'eau était glaciale. J'étais ivre." ]
+        ],
+        "en": [
+          [ 2, "I was in Norway.  I had found a small army map on which there was a dotted line.  I figured it showed a trail." ],
+          [ 10, "Summer.  It was hot.  I left on foot.  I had to cross a torrent.  I was alone.  I took off my clothes and went into the water." ],
+          [ 25, "It was ice-cold. Iwas drunk." ]
+        ],
+        "de": [
+          [ 2, "Ich war in Norwegen. Ich hatte eine kleine Generalstabskarte gefunden, auf der eine gepunktete Linie eingezeichnet war. Wohl ein Weg." ],
+          [ 10, "Es war Sommer. Es war heiß. Ich machte mich zu Fuß auf den Weg. Ich musste einen reißenden Bach durqueren.  Ich habe mich ausgezogen und mich gebadet." ],
+          [ 25, "Das Wasser war eiskalt. Ich war wie im Rausch." ]
+        ]
+      }
+    },
+    {
+      "id": 77,
+      "next": "question:83",
+      "video": {
+        "src": "P83"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "J'étais dans le métro. Je rentrais chez-moi le soir. Un musicien arrive et s'assoit en face de moi." ],
+          [ 12, "Nos regards se croisent. Je baisse les yeux." ],
+          [ 20, "Le hasard nous fait descendre à la même station. Je ne laisse rien voir. Lui prend sort d'un côté et moi de l'autre." ],
+          [ 33, "Je le cherche encore. 18625" ]
+        ],
+        "en": [
+          [ 1, "I was in the subway, coming back home at night.  A musician arrived and settled down opposite me." ],
+          [ 12, "Our eyes met.  I looked down." ],
+          [ 20, "It turned out we were both getting off at the same station. He existed on one side and I on the other." ],
+          [ 33, "I'm still looking for him." ]
+        ],
+        "de": [
+          [ 1, "Ich war in der U-Bahn.  Es war abends und ich war auf dem Heimweg. Ein Musiker steigt ein und setzt sich mir gegenüber." ],
+          [ 12, "Unsere Blicke treffen sich." ],
+          [ 20, "Ich schaue zu Boden. Zufällig  steigen wir an derselben  Station aus. Ich lasse mir nichts anmerken. Er geht an der einen Seite hinaus und ich an der anderen Seite." ],
+          [ 33, "Ich suche ihn noch heute." ]
+        ]
+      }
+    },
+    {
+      "id": 78,
+      "next": "question:54",
+      "video": {
+        "src": "P84"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "" ]
+        ],
+        "en": [
+          [ 0, "" ]
+        ],
+        "de": [
+          [ 0, "" ]
+        ]
+      }
+    },
+    {
+      "id": 79,
+      "next": "question:27",
+      "video": {
+        "src": "P85"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Ah bon!" ]
+        ],
+        "en": [
+          [ 2, "Ah bon!" ]
+        ],
+        "de": [
+          [ 2, "Wirklich!" ]
+        ]
+      }
+    },
+    {
+      "id": 80,
+      "next": "clip:0",
+      "video": {
+        "src": "P86"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Ah bon!" ]
+        ],
+        "en": [
+          [ 2, "Ah bon!" ]
+        ],
+        "de": [
+          [ 2, "Wirklich!" ]
+        ]
+      }
+    },
+    {
+      "id": 81,
+      "next": "question:50",
+      "video": {
+        "src": "P87"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Les rencontres, c'est ce qu'il y a de plus important! C'est le chant du monde!" ],
+          [ 6, "Même les gens qui se connaissent déjà continuent de se rencontrer. Tout est à refaire toujours." ],
+          [ 14, "La transfiguration... vous connaissez?" ]
+        ],
+        "en": [
+          [ 1, "Encounters, they matter the most!  They are the song of the world!" ],
+          [ 6, "Even people that already know each other keep meeting.  It all has to be done over again, always." ],
+          [ 14, "Transfiguration ...  You know about it?" ]
+        ],
+        "de": [
+          [ 1, "Begegnungen sind das allerwichtigste! Das ist das Lied der Welt!" ],
+          [ 6, "Selbst Menschen, die sich bereits kennen, begegnen immer wieder. Es muss alles ständig von vorne angefangen werden." ],
+          [ 14, "Verklärung ... ist Ihnen das ein Begriff?" ]
+        ]
+      }
+    },
+    {
+      "id": 82,
+      "next": "question:51",
+      "video": {
+        "src": "P88"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Vous trouvez? Non je ne crois pas." ],
+          [ 5, "Je dis \"chant du monde\" comme ça!" ]
+        ],
+        "en": [
+          [ 1, "You find so?  No, I don't think so." ],
+          [ 5, "I say \"song of the world\" without thinking." ]
+        ],
+        "de": [
+          [ 1, "Finden Sie? Nein, ich glaube nicht." ],
+          [ 5, "Ich sage \"Lied der Welt\"  einfach so!" ]
+        ]
+      }
+    },
+    {
+      "id": 83,
+      "next": "question:52",
+      "video": {
+        "src": "P89"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Non, enfin, oui et non!" ],
+          [ 4, "Je ne crois pas en Dieu, mais j'ai le sentiment que la beauté existe et je la cherche." ]
+        ],
+        "en": [
+          [ 1, "No, well, yes and no!" ],
+          [ 4, "I don't believe in God, but let's say that I have the feeling that beauty exists. I seek it." ]
+        ],
+        "de": [
+          [ 1, "Nein, gut, ja und nein!" ],
+          [ 4, "Ich glaube nicht an Gott, aber ich spüre, dass es die Schönheit gibt  und die suche ich." ]
+        ]
+      }
+    },
+    {
+      "id": 84,
+      "next": "clip:150",
+      "video": {
+        "src": "P90"
+      },
+      "strings": {
+        "fr": [
+          [ 4, "Vous avez raison! chacun cherche ses réponses." ]
+        ],
+        "en": [
+          [ 4, "You're right!  Everyone looks for his (her) own answers." ]
+        ],
+        "de": [
+          [ 4, "Sie haben recht! Jeder sucht seine Antworten." ]
+        ]
+      }
+    },
+    {
+      "id": 85,
+      "next": "question:40",
+      "video": {
+        "src": "P91"
+      },
+      "strings": {
+        "fr": [
+          [ 3, "Oui..." ],
+          [ 6, "c'est bien vous que je regarde." ],
+          [ 9, "Je regarde vos yeux, votre bouche..." ],
+          [ 14, "la courbe ici." ],
+          [ 20, "Est-ce que ça vous gêne?" ]
+        ],
+        "en": [
+          [ 3, "Yes ..." ],
+          [ 6, "it's you that I'm staring at." ],
+          [ 9, "I'm looking at your eyes, your mouth, your neck ..." ],
+          [ 14, "the curve there." ],
+          [ 20, "Am I embarrassing you?" ]
+        ],
+        "de": [
+          [ 3, "Ja ... " ],
+          [ 6, "Sie schaue ich an." ],
+          [ 9, "Ich schaue auf Ihre Augen, Ihren Mund..." ],
+          [ 14, "die Kurve hier." ],
+          [ 20, "Stört Sie das?" ]
+        ]
+      }
+    },
+    {
+      "id": 86,
+      "next": "question:41",
+      "video": {
+        "src": "P92"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Vous là, vous devez être vierge ascendant poisson!" ]
+        ],
+        "en": [
+          [ 2, "You must be a Virgo with a Pisces ascendant!" ]
+        ],
+        "de": [
+          [ 2, "Sie müssen Jungfrau sein, Aszendent Fische!" ]
+        ]
+      }
+    },
+    {
+      "id": 87,
+      "next": "question:64",
+      "video": {
+        "src": "P93"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Ah bon! J'aurais cru!." ],
+          [ 4, "Il me semble pourtant que vous êtes du genre chanceux!" ]
+        ],
+        "en": [
+          [ 1, "So! ... I would have thought ..." ],
+          [ 4, "All the same you seem to be of a lucky type" ]
+        ],
+        "de": [
+          [ 1, "Wirklich! Ich hätte es gedacht!" ],
+          [ 4, "Sie scheinen dabei ein Glückspilz zu sein!" ]
+        ]
+      }
+    },
+    {
+      "id": 88,
+      "next": "question:66",
+      "video": {
+        "src": "P94"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Vous vous moquez de moi!" ],
+          [ 4, "Je ne connais rien à l'astrologie et d'ailleurs ça ne m'intéresse pas." ],
+          [ 7, "Soyons amis!" ]
+        ],
+        "en": [
+          [ 1, "You're making fun of me!" ],
+          [ 4, "I don't know a thing about astrology and besides I don't care for it." ],
+          [ 7, "Let's be friends!" ]
+        ],
+        "de": [
+          [ 1, "Sie machen sich über mich lustig!" ],
+          [ 4, "Ich weiß nichts über Astrologie und außerdem interessiert es mich nicht." ],
+          [ 7, "Lassen Sie uns Freunde sein!" ]
+        ]
+      }
+    },
+    {
+      "id": 89,
+      "next": "question:21",
+      "video": {
+        "src": "P95"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Vous vous moquez de moi!" ]
+        ],
+        "en": [
+          [ 1, "You're making fun of me!" ]
+        ],
+        "de": [
+          [ 1, "Sie machen sich über mich lustig!" ]
+        ]
+      }
+    },
+    {
+      "id": 90,
+      "next": "question:74",
+      "video": {
+        "src": "P96"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Ecoutez! On ne se connaît pas beaucoup!" ]
+        ],
+        "en": [
+          [ 1, "Listen!  We don't know each other very well." ]
+        ],
+        "de": [
+          [ 1, "Hören Sie mal, wir kennen uns doch kaum!" ]
+        ]
+      }
+    },
+    {
+      "id": 91,
+      "next": "script:time;[104,93,94,95,96,97,98,99,100,101,102,103,92]",
+      "video": {
+        "src": "P97"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Pas vraiment, je crois qu'il doit être près de..." ]
+        ],
+        "en": [
+          [ 2, "Not really, I think it is nearing ..." ]
+        ],
+        "de": [
+          [ 2, "Nicht wirklich, es ist etwa ..." ]
+        ]
+      }
+    },
+    {
+      "id": 92,
+      "next": "clip:105",
+      "video": {
+        "src": "P110"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "midi..." ]
+        ],
+        "en": [
+          [ 0, "noon..." ]
+        ],
+        "de": [
+          [ 0, "Mittag ..." ]
+        ]
+      }
+    },
+    {
+      "id": 93,
+      "next": "clip:105",
+      "video": {
+        "src": "P99"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "une heure..." ]
+        ],
+        "en": [
+          [ 0, "1 o'clock ..." ]
+        ],
+        "de": [
+          [ 0, "ein Uhr ..." ]
+        ]
+      }
+    },
+    {
+      "id": 94,
+      "next": "clip:105",
+      "video": {
+        "src": "P100"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "deux heures..." ]
+        ],
+        "en": [
+          [ 0, "2 o'clock ..." ]
+        ],
+        "de": [
+          [ 0, "zwei Uhr ..." ]
+        ]
+      }
+    },
+    {
+      "id": 95,
+      "next": "clip:105",
+      "video": {
+        "src": "P101"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "trois heures..." ]
+        ],
+        "en": [
+          [ 0, "3 o'clock ..." ]
+        ],
+        "de": [
+          [ 0, "drei Uhr ..." ]
+        ]
+      }
+    },
+    {
+      "id": 96,
+      "next": "clip:105",
+      "video": {
+        "src": "P102"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "quatre heures..." ]
+        ],
+        "en": [
+          [ 0, "4 o'clock ..." ]
+        ],
+        "de": [
+          [ 0, "vier Uhr ..." ]
+        ]
+      }
+    },
+    {
+      "id": 97,
+      "next": "clip:105",
+      "video": {
+        "src": "P103"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "cinq heures..." ]
+        ],
+        "en": [
+          [ 0, "5 o'clock ..." ]
+        ],
+        "de": [
+          [ 0, "fünf Uhr ..." ]
+        ]
+      }
+    },
+    {
+      "id": 98,
+      "next": "clip:105",
+      "video": {
+        "src": "P104"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "six heures..." ]
+        ],
+        "en": [
+          [ 0, "6 o'clock ..." ]
+        ],
+        "de": [
+          [ 0, "sechs Uhr ..." ]
+        ]
+      }
+    },
+    {
+      "id": 99,
+      "next": "clip:105",
+      "video": {
+        "src": "P105"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "sept heures..." ]
+        ],
+        "en": [
+          [ 0, "7 o'clock ..." ]
+        ],
+        "de": [
+          [ 0, "sieben Uhr ..." ]
+        ]
+      }
+    },
+    {
+      "id": 100,
+      "next": "clip:105",
+      "video": {
+        "src": "P106"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "huit heures..." ]
+        ],
+        "en": [
+          [ 0, "8 o'clock ..." ]
+        ],
+        "de": [
+          [ 0, "acht Uhr ..." ]
+        ]
+      }
+    },
+    {
+      "id": 101,
+      "next": "clip:105",
+      "video": {
+        "src": "P107"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "neuf heures..." ]
+        ],
+        "en": [
+          [ 0, "9 o'clock ..." ]
+        ],
+        "de": [
+          [ 0, "neun Uhr ..." ]
+        ]
+      }
+    },
+    {
+      "id": 102,
+      "next": "clip:105",
+      "video": {
+        "src": "P108"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "dix heures..." ]
+        ],
+        "en": [
+          [ 0, "10 o'clock ..." ]
+        ],
+        "de": [
+          [ 0, "zehn Uhr ..." ]
+        ]
+      }
+    },
+    {
+      "id": 103,
+      "next": "clip:105",
+      "video": {
+        "src": "P109"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "onze heures..." ]
+        ],
+        "en": [
+          [ 0, "11 o'clock ..." ]
+        ],
+        "de": [
+          [ 0, "elf Uhr ..." ]
+        ]
+      }
+    },
+    {
+      "id": 104,
+      "next": "clip:105",
+      "video": {
+        "src": "P98"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "minuit..." ]
+        ],
+        "en": [
+          [ 0, "midnight ..." ]
+        ],
+        "de": [
+          [ 0, "Mitternacht ..." ]
+        ]
+      }
+    },
+    {
+      "id": 105,
+      "next": "question:42",
+      "video": {
+        "src": "P111"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "mais vous savez, je peux me tromper!" ]
+        ],
+        "en": [
+          [ 0, "but, you know, I may be wrong!" ]
+        ],
+        "de": [
+          [ 0, "aber Sie wissen, ich könnte falsch sein!" ]
+        ]
+      }
+    },
+    {
+      "id": 106,
+      "next": "question:28",
+      "video": {
+        "src": "P112"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Eh... Je suis là, j'attend..." ],
+          [ 7, "Vous savez moi le temps je n'y pense même plus. J'ai fini par comprendre que j'avais tout mon temps." ],
+          [ 16, "On vous attend peut-être? Vous êtes pressé?" ]
+        ],
+        "en": [
+          [ 2, "Er ...  I'm here waiting ..." ],
+          [ 7, "You know, I don't even think about time anymore.  I've decided I have all the time I need." ],
+          [ 16, "You are expected, maybe? You're in a hurry?" ]
+        ],
+        "de": [
+          [ 2, "Nun ... Hier bin ich und warte ..." ],
+          [ 7, "Wissen Sie, an die Zeit denke ich gar nicht mehr. Ich habe schließlich begriffen, dass ich jede Menge Zeit hatte." ],
+          [ 16, "Sie werden erwartet? Sie haben es eilig?" ]
+        ]
+      }
+    },
+    {
+      "id": 107,
+      "next": "question:29",
+      "video": {
+        "src": "P113"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Allez-y toujours... Ça dépend quoi!" ]
+        ],
+        "en": [
+          [ 1, "You can always try ... It depends, really." ]
+        ],
+        "de": [
+          [ 1, "Nur zu ... Es kommt darauf an!" ]
+        ]
+      }
+    },
+    {
+      "id": 108,
+      "next": "question:30",
+      "video": {
+        "src": "P114"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Marie." ],
+          [ 3, "Et vous?" ]
+        ],
+        "en": [
+          [ 1, "Marie." ],
+          [ 3, "And you?" ]
+        ],
+        "de": [
+          [ 1, "Marie." ],
+          [ 3, "Und Sie? " ]
+        ]
+      }
+    },
+    {
+      "id": 109,
+      "next": "question:31",
+      "video": {
+        "src": "P115"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Ah bon! Et vous, que faites-vous ici?" ]
+        ],
+        "en": [
+          [ 1, "Oh well! And you, what are you doing here?" ]
+        ],
+        "de": [
+          [ 1, "Wirklich! Und was machen Sie hier? " ]
+        ]
+      }
+    },
+    {
+      "id": 110,
+      "next": "question:32",
+      "video": {
+        "src": "P116"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Ah, je comprends!" ],
+          [ 7, "C'est difficile de parler de soi." ],
+          [ 11, "On a souvent l'impression de trahir quelque chose. N'est-ce pas?" ]
+        ],
+        "en": [
+          [ 2, "Ah ... I understand!" ],
+          [ 7, "It is hard to talk about oneself." ],
+          [ 11, "We often have the impression that we are betraying something." ]
+        ],
+        "de": [
+          [ 2, "OK, ich verstehe!" ],
+          [ 7, "Es ist schwierig, über sich selbst zu sprechen." ],
+          [ 11, "Oft hat man den Eindruck, etwas preiszugeben, nicht wahr?" ]
+        ]
+      }
+    },
+    {
+      "id": 111,
+      "next": "question:73",
+      "video": {
+        "src": "P117"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Vous me rappelez quelqu'un que j'ai connu! Quelqu'un que j'aime beaucoup." ],
+          [ 7, "On s'est rencontrés sur un avion. Il m'a remarquée à cause du livre que je lisais. Je me sentais observée." ],
+          [ 16, "En débarquant nous nous sommes parlés. Comme on était sur le même vol de retour, on s'est dit au revoir." ],
+          [ 27, "Trois semaines plus tard, nous avions tout à nous dire." ]
+        ],
+        "en": [
+          [ 2, "You make me think of someone I knew." ],
+          [ 7, "We met on a plane.  He noticed the book I was reading.  I felt I was being watched." ],
+          [ 16, "We spoke when we came off the plane.  We said goodbye knowing we would board the same return flight." ],
+          [ 27, "Three weeks later we had everything to say to each other." ]
+        ],
+        "de": [
+          [ 2, "Sie erinnern mich an jemanden, den ich einst kannte! Jemand, den ich sehr gern habe." ],
+          [ 7, "Wir haben uns im Flugzeug getroffen. Er hat mich wegen des Buchs bemerkt, das ich las. Ich fühlte mich beobachtet." ],
+          [ 16, "Bei der Ankunft kamen wir ins Gespräch. Da wir denselben Rückflug gebucht hatten, sagten wir uns auf Wiedersehen." ],
+          [ 27, "Drei Wochen später hatten wir uns jede Menge zu erzählen." ]
+        ]
+      }
+    },
+    {
+      "id": 112,
+      "next": "question:3",
+      "video": {
+        "src": "P118"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Vous devriez marcher." ]
+        ],
+        "en": [
+          [ 2, "You should walk." ]
+        ],
+        "de": [
+          [ 2, "Sie sollten zu Fuß gehen." ]
+        ]
+      }
+    },
+    {
+      "id": 113,
+      "next": "question:63",
+      "video": {
+        "src": "P119"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Et vous vous intéressez à l'art?" ],
+          [ 5, "Le marché de l'art?" ]
+        ],
+        "en": [
+          [ 2, "So you take an interest in art?" ],
+          [ 5, "In the art market?" ]
+        ],
+        "de": [
+          [ 2, "Interessieren Sie sich für Kunst?" ],
+          [ 5, "Den Kunstmarkt?" ]
+        ]
+      }
+    },
+    {
+      "id": 114,
+      "next": "question:71",
+      "video": {
+        "src": "P120"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Vous êtes collectionneur!" ],
+          [ 4, "Est-ce que je vous intéresse?" ]
+        ],
+        "en": [
+          [ 1, "You are a collector!" ],
+          [ 4, "Are you interested in me?" ]
+        ],
+        "de": [
+          [ 1, "Sie sind Sammler!" ],
+          [ 4, "Interessieren Sie sich für mich? " ]
+        ]
+      }
+    },
+    {
+      "id": 115,
+      "next": "question:93",
+      "video": {
+        "src": "P121"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Le sacrifice d'une vie!" ]
+        ],
+        "en": [
+          [ 2, "The sacrifice of a life!" ]
+        ],
+        "de": [
+          [ 2, "Ein ganzes Leben wurde geopfert!" ]
+        ]
+      }
+    },
+    {
+      "id": 116,
+      "next": "clip:119",
+      "video": {
+        "src": "P122"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Vous avez raison. Il n'y a pas de sacrifice!" ]
+        ],
+        "en": [
+          [ 1, "You are right.  There is no sacrifice!" ]
+        ],
+        "de": [
+          [ 1, "Sie haben recht. Es gibt kein Opfer!" ]
+        ]
+      }
+    },
+    {
+      "id": 117,
+      "next": "question:53",
+      "video": {
+        "src": "P123"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Je vous propose un jeu : on se regarde dans les yeux." ],
+          [ 7, "Le premier qui rit doit faire ce que l'autre lui demande." ]
+        ],
+        "en": [
+          [ 2, "I propose a game:  We look into each other's eyes." ],
+          [ 7, "The first one who laughs must do what the other one asks." ]
+        ],
+        "de": [
+          [ 2, "Wollen wir ein Spiel spielen: wir blicken uns in die Augen." ],
+          [ 7, "Der erste, der lacht, muss tun, was der andere sagt." ]
+        ]
+      }
+    },
+    {
+      "id": 118,
+      "next": "question:34",
+      "video": {
+        "src": "P124"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Non jamais..." ]
+        ],
+        "en": [
+          [ 1, "No, never ..." ]
+        ],
+        "de": [
+          [ 1, "Nein, niemals ..." ]
+        ]
+      }
+    },
+    {
+      "id": 119,
+      "next": "question:35",
+      "video": {
+        "src": "P125"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "" ]
+        ],
+        "en": [
+          [ 0, "" ]
+        ],
+        "de": [
+          [ 0, "" ]
+        ]
+      }
+    },
+    {
+      "id": 120,
+      "next": "clip:150",
+      "video": {
+        "src": "P126"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "" ]
+        ],
+        "en": [
+          [ 0, "" ]
+        ],
+        "de": [
+          [ 0, "" ]
+        ]
+      }
+    },
+    {
+      "id": 121,
+      "next": "question:38",
+      "video": {
+        "src": "P127"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Vous avez raison. Quand on y pense, on a toutes les raisons de se réjouir." ],
+          [ 5, "Qu'est-ce qui vous intéresse?" ]
+        ],
+        "en": [
+          [ 2, "You're right.  When we think about it, we have every reason to rejoice." ],
+          [ 5, "What are you interested in?" ]
+        ],
+        "de": [
+          [ 2, "Sie haben recht. Wenn man es recht bedenkt, hat man allen Grund zur Freude." ],
+          [ 5, "Was interessiert Sie?" ]
+        ]
+      }
+    },
+    {
+      "id": 122,
+      "next": "question:38",
+      "video": {
+        "src": "P128"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Qu'est-ce qui vous intéresse?" ]
+        ],
+        "en": [
+          [ 1, "What are you interested in?" ]
+        ],
+        "de": [
+          [ 1, "Was interessiert Sie?" ]
+        ]
+      }
+    },
+    {
+      "id": 123,
+      "next": "question:49",
+      "video": {
+        "src": "P129"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Vous me plaisez aussi... Malheureusement dans ma position, il m'est difficile d'envisager quoi que ce soit." ],
+          [ 9, "Je n'ai aucun avenir!" ],
+          [ 14, "Je ne suis pas comme vous..." ]
+        ],
+        "en": [
+          [ 1, "I like you too ... Unfortunately it's hard for me to contemplate anything." ],
+          [ 9, "I have no future!" ],
+          [ 14, "I'm not like you ..." ]
+        ],
+        "de": [
+          [ 1, "Ich mag Sie auch ... leider kann man in meiner Situation kaum irgendetwas planen." ],
+          [ 9, "Ich habe keine Zukunft!" ],
+          [ 14, "Ich bin nicht wie Sie!" ]
+        ]
+      }
+    },
+    {
+      "id": 124,
+      "next": "question:11",
+      "video": {
+        "src": "P130"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Attention! N'allez pas trop vite!" ]
+        ],
+        "en": [
+          [ 2, "Careful! Don't go to fast!" ]
+        ],
+        "de": [
+          [ 2, "Achtung! Immer langsam!" ]
+        ]
+      }
+    },
+    {
+      "id": 125,
+      "next": "question:36",
+      "video": {
+        "src": "P131"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "J'attends quelqu'un!" ]
+        ],
+        "en": [
+          [ 2, "I'm waiting for someone!" ]
+        ],
+        "de": [
+          [ 2, "Ich erwarte jemanden!" ]
+        ]
+      }
+    },
+    {
+      "id": 126,
+      "next": "question:37",
+      "video": {
+        "src": "P132"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Rien de particulier... J'observe, je prend plaisir à regarder les gens." ],
+          [ 7, "Je ne vois pas le temps passer." ],
+          [ 10, "Et vous?" ]
+        ],
+        "en": [
+          [ 1, "Nothing in particular ... I watch, I like looking at people." ],
+          [ 7, "I don't see the time go by." ],
+          [ 10, "You?" ]
+        ],
+        "de": [
+          [ 1, "Nichts Besonderes ... Ich schaue zu, ich habe Spaß daran, Menschen zu beobachten." ],
+          [ 7, "Ich spüre nicht, wie die Zeit vergeht." ],
+          [ 10, "Und Sie?" ]
+        ]
+      }
+    },
+    {
+      "id": 127,
+      "next": "question:55",
+      "video": {
+        "src": "P133"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Assez heureuse. Je vis simplement. Je n'ai pas besoin de grand chose." ],
+          [ 7, "Je suis là. J'attends!" ]
+        ],
+        "en": [
+          [ 1, "Happy enough! I live simply. I don't need much." ],
+          [ 7, "I'm here. I'm waiting!" ]
+        ],
+        "de": [
+          [ 1, "Ziemlich glücklich. Ich führe ein einfaches Leben. Ich brauche nicht viel." ],
+          [ 7, "Ich bin hier. Ich warte!" ]
+        ]
+      }
+    },
+    {
+      "id": 128,
+      "next": "question:14",
+      "video": {
+        "src": "P134"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Ah oui, c'est vrai! Ce n'est pas toujours facile!" ],
+          [ 4, "Tenez moi par exemple. Qu'est-ce que je peux faire! Je n'ai pas beaucoup d'avenir. Je rencontre des gens extraordinaires et..." ],
+          [ 12, "Enfin..." ],
+          [ 14, "Ah! mais je vous regarde..." ],
+          [ 16, "Je sens qu'il va vous arriver quelque chose!" ]
+        ],
+        "en": [
+          [ 1, "You're right, it's not always easy." ],
+          [ 4, "Take me for example.  What can I do?  I don't have much of a future.  I meet extraordinary people and ..." ],
+          [ 12, "Well, anyway ..." ],
+          [ 14, "Oh, but I look at you ..." ],
+          [ 16, "I feel that something is going to happen to you!" ]
+        ],
+        "de": [
+          [ 1, "Ja, das stimmt! Es ist nicht immer einfach!" ],
+          [ 4, "Nehmen Sie mich zum Beispiel. Was kann ich machen! Ich habe kaum Zukunft. Ich treffe fabelhafte Menschen und ..." ],
+          [ 12, "Sei’s drum..." ],
+          [ 14, "Aber wenn ich Sie so ansehe..." ],
+          [ 16, "Ich habe das Gefühl, dass Ihnen etwas passieren wird!" ]
+        ]
+      }
+    },
+    {
+      "id": 129,
+      "next": "question:39",
+      "video": {
+        "src": "P135"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Oui... peut-être. Je ne sais pas." ],
+          [ 5, "En général les gens qui sont directs me plaisent!" ]
+        ],
+        "en": [
+          [ 2, "Yes ... maybe. I don't know." ],
+          [ 5, "I generally like people that are direct." ]
+        ],
+        "de": [
+          [ 2, "Ja, vielleicht. Ich weiß nicht." ],
+          [ 5, "Im Allgemeinen mag ich Menschen, die direkt sind!" ]
+        ]
+      }
+    },
+    {
+      "id": 130,
+      "next": "question:30",
+      "video": {
+        "src": "P136"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Ah je vous énerve!" ],
+          [ 4, "Et vous, qui êtes-vous!" ]
+        ],
+        "en": [
+          [ 1, "Ah, I'm getting on your nerves!" ],
+          [ 4, "Say, tell me who you are!" ]
+        ],
+        "de": [
+          [ 1, "Ich gehe Ihnen auf die Nerven!" ],
+          [ 4, "Und wer sind Sie überhaupt!" ]
+        ]
+      }
+    },
+    {
+      "id": 131,
+      "next": "question:44",
+      "video": {
+        "src": "P137"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Qui êtes-vous?" ]
+        ],
+        "en": [
+          [ 1, "Who are you?" ]
+        ],
+        "de": [
+          [ 1, "Wer sind Sie?" ]
+        ]
+      }
+    },
+    {
+      "id": 132,
+      "next": "question:30",
+      "video": {
+        "src": "P138"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Peut-être!..." ],
+          [ 4, "Qui êtes vous?" ]
+        ],
+        "en": [
+          [ 1, "Maybe! ..." ],
+          [ 4, "Who are you?" ]
+        ],
+        "de": [
+          [ 1, "Vielleicht! ..." ],
+          [ 4, "Wer sind Sie?" ]
+        ]
+      }
+    },
+    {
+      "id": 133,
+      "next": "question:43",
+      "video": {
+        "src": "P139"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Je ne commence pas et je ne finis pas." ],
+          [ 5, "Je suis éternelle!" ]
+        ],
+        "en": [
+          [ 1, "I do not begin nor do I end." ],
+          [ 5, "I'm eternal!" ]
+        ],
+        "de": [
+          [ 1, "Ich habe kein Anfang und kein Ende." ],
+          [ 5, "Ich bin unsterblich!" ]
+        ]
+      }
+    },
+    {
+      "id": 134,
+      "next": "clip:131",
+      "video": {
+        "src": "P140"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Ni aujourd'hui, ni jamais." ],
+          [ 4, "Je ne suis pas ce que vous croyez." ]
+        ],
+        "en": [
+          [ 1, "Not today or ever." ],
+          [ 4, "I am not what you think me to be." ]
+        ],
+        "de": [
+          [ 1, "Weder heute noch überhaupt." ],
+          [ 4, "Ich bin nicht, was Sie denken." ]
+        ]
+      }
+    },
+    {
+      "id": 135,
+      "next": "question:25",
+      "video": {
+        "src": "P141"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "C'est ça oui! je dois être féministe juste parce que j'attends qu'on me considère un peu!" ],
+          [ 7, "Est-ce que ça vous arrange?" ]
+        ],
+        "en": [
+          [ 2, "Yes, that's it, I must be a feminist since I expect a little respect!" ],
+          [ 7, "Does that suit you?" ]
+        ],
+        "de": [
+          [ 2, "Natürlich! Ich bin Feministin, nur weil ich erwarte, dass man mir ein bisschen Respekt entgegenbringt." ],
+          [ 7, "Passt Ihnen das?" ]
+        ]
+      }
+    },
+    {
+      "id": 136,
+      "next": "question:45",
+      "video": {
+        "src": "P142"
+      },
+      "strings": {
+        "fr": [
+          [ 0, "" ]
+        ],
+        "en": [
+          [ 0, "" ]
+        ],
+        "de": [
+          [ 0, "" ]
+        ]
+      }
+    },
+    {
+      "id": 137,
+      "next": "question:46",
+      "video": {
+        "src": "P143"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Ça commence par nous faire des compliments et puis quand ça se rend compte..." ],
+          [ 7, "qu'on est pas pas les beaux bébés qu'ils croient, ça nous traite de féministe!" ],
+          [ 11, "Les gens comme vous me tuent!" ]
+        ],
+        "en": [
+          [ 2, "They start out by paying us compliments and then, when they realize that..." ],
+          [ 7, "we are not the sweet babes they thought we were, they call us feminists!" ],
+          [ 11, "People like you are the death of me!" ]
+        ],
+        "de": [
+          [ 2, "Erst machen sie man uns Komplimente und dann merken sie, dass..." ],
+          [ 7, "wir nicht die hübschen Puppen sind, für die sie uns halten und dann nennen sie uns Feministinnen!" ],
+          [ 11, "Leute wie Sie machen mich rasend!" ]
+        ]
+      }
+    },
+    {
+      "id": 138,
+      "next": "question:24",
+      "video": {
+        "src": "P144"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "En plus d'essuyer quotidiennement votre mépris (devrais-je dire vos taquineries) je dois vous deviner, vous comprendre et vous aider (voir vous servir)." ],
+          [ 14, "Pour subvenir à mes besoins je dois sans cesse faire valoir ma compétence avec peu d'espoir d'être traitée en égale!" ],
+          [ 21, "La nuit je suis prisonnière de la violence et, même terrée chez-moi, je continue de mourir à la télé." ]
+        ],
+        "en": [
+          [ 1, "On top of having to bear your contempt (or should I say teasing?) I must see into you, understand you, and help you (serve you even)." ],
+          [ 14, "To make a living I must constantly prove my skills with little hope of being treated as an equal." ],
+          [ 21, "At night I am trapped by violence and, even when I'm hidden away at home, I keep dying on T.V." ]
+        ],
+        "de": [
+          [ 1, "Ich muss nicht nur tagtäglich Ihre Verachtung erleben (sollte ich sagen, Ihre Neckereien), Ich muss Ihre Gedanken lesen, Sie verstehen und Ihnen helfen, (um nicht zu sagen, Sie bedienen)." ],
+          [ 14, "Um meine Lebensunterhalt zu verdienen, muss ich ständig meinen Sachverstand unter Beweis stellen, ohne große Hoffnung, gleich behandelt zu werden." ],
+          [ 21, "Nachts bin ich der Gewalt ausgesetzt und selbst zu Hause sterbe ich weite auf der Mattscheibe." ]
+        ]
+      }
+    },
+    {
+      "id": 139,
+      "next": "question:47",
+      "video": {
+        "src": "P145"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Et lorsque dans ma chambre  vous\nm'«aimez librement», je suis souvent seule à porter le fruit de votre amour." ],
+          [ 9, "Ensuite, j'ai tout votre pouvoir sur le dos, médecins, juges et politiciens pour revendiquer votre droit à la vie!" ],
+          [ 18, "N'en jetez plus, la cour est pleine!" ]
+        ],
+        "en": [
+          [ 2, "When, in my room, you \"love me freely\", I often have to bear alone the fruit of your love." ],
+          [ 9, "And then you throw the weight of your power on me, doctors, judges and politicians, claiming your right to life!" ],
+          [ 18, "Enough, I'm bursting at the seams!" ]
+        ],
+        "de": [
+          [ 2, "Und wenn Sie in meinem Zimmer \"in freier Liebe\"  mit mir schlafen,  bleibe ich häufig alleine mit der Frucht Ihrer Liebe." ],
+          [ 9, "Danach bekomme ich Ihre geballte Macht zu spüren, die der Ärzte, Richter und Politiker, die auf Ihr Recht auf Leben pochen." ],
+          [ 18, "Immer dieselbe Leier!" ]
+        ]
+      }
+    },
+    {
+      "id": 140,
+      "next": "question:48",
+      "video": {
+        "src": "P146"
+      },
+      "strings": {
+        "fr": [
+          [ 3, "Vivre." ]
+        ],
+        "en": [
+          [ 3, "To live." ]
+        ],
+        "de": [
+          [ 3, "Leben." ]
+        ]
+      }
+    },
+    {
+      "id": 141,
+      "next": "question:30",
+      "video": {
+        "src": "P147"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Commençons ici, vous et moi." ],
+          [ 5, "Si vous me traitez de femme, je vous traiterai d'homme. Dites vous plutôt que je suis comme vous, ni plus ni moins." ],
+          [ 13, "Comme vous et... différente." ],
+          [ 18, "Qui êtes-vous?" ]
+        ],
+        "en": [
+          [ 2, "Let's start here, you and I." ],
+          [ 5, "If you call me a woman, I'll call you a man.  Tell yourself instead that I am like you, no more no less." ],
+          [ 13, "Like you and ... different." ],
+          [ 18, "Who are you?" ]
+        ],
+        "de": [
+          [ 2, "Fangen wir beide mal hier an." ],
+          [ 5, "Wenn Sie mich als Frau behandeln, behandele ich Sie als Mann. Sagen Sie doch eher, dass ich wie Sie bin, nicht mehr und nicht weniger." ],
+          [ 13, "Wie Sie und doch…anders." ],
+          [ 18, "Wer sind Sie?" ]
+        ]
+      }
+    },
+    {
+      "id": 142,
+      "next": "clip:150",
+      "video": {
+        "src": "P148"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Oui c'est ça! J'y vais un peu fort." ]
+        ],
+        "en": [
+          [ 1, "Yes, that's it, I'm going a little too far!" ]
+        ],
+        "de": [
+          [ 1, "Ja, das stimmt! Ich übertreibe ein bisschen." ]
+        ]
+      }
+    },
+    {
+      "id": 143,
+      "next": "clip:0",
+      "video": {
+        "src": "P149"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Oui! je l'ai revu." ]
+        ],
+        "en": [
+          [ 1, "Yes, I saw him again." ]
+        ],
+        "de": [
+          [ 1, "Ja! Ich habe ihn wiedergesehen." ]
+        ]
+      }
+    },
+    {
+      "id": 144,
+      "next": "clip:150",
+      "video": {
+        "src": "P150"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Non!... Malheureusement." ]
+        ],
+        "en": [
+          [ 2, "No! ... Unfortunately ..." ]
+        ],
+        "de": [
+          [ 2, "Nein!... Leider." ]
+        ]
+      }
+    },
+    {
+      "id": 145,
+      "next": "clip:150",
+      "video": {
+        "src": "P151"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Non!... Je n'ai plus envie." ]
+        ],
+        "en": [
+          [ 2, "No! ... I don't feel like it anymore." ]
+        ],
+        "de": [
+          [ 2, "Nein! ... Ich habe keine Lust mehr." ]
+        ]
+      }
+    },
+    {
+      "id": 146,
+      "next": "question:10",
+      "video": {
+        "src": "P152"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Qué peccato!" ]
+        ],
+        "en": [
+          [ 1, "Qué peccato!" ]
+        ],
+        "de": [
+          [ 1, "Que peccato!" ]
+        ]
+      }
+    },
+    {
+      "id": 147,
+      "next": "clip:150",
+      "video": {
+        "src": "P153"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Laissez... Ce n'est pas important!" ]
+        ],
+        "en": [
+          [ 2, "Never mind ... It's not important." ]
+        ],
+        "de": [
+          [ 2, "Lassen Sie ... Es ist nicht wichtig!" ]
+        ]
+      }
+    },
+    {
+      "id": 148,
+      "next": "clip:0",
+      "video": {
+        "src": "P154"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Ah bon!... Très bien!" ]
+        ],
+        "en": [
+          [ 1, "So! ... very well!" ]
+        ],
+        "de": [
+          [ 1, "Ach so! ... OK!" ]
+        ]
+      }
+    },
+    {
+      "id": 151,
+      "next": "clip:3",
+      "video": {
+        "src": "P154"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Ah bon!... Très bien!" ]
+        ],
+        "en": [
+          [ 1, "So! ... very well!" ]
+        ],
+        "de": [
+          [ 1, "Ach so! ... OK!" ]
+        ]
+      }
+    },
+    {
+      "id": 149,
+      "next": "question:1",
+      "video": {
+        "src": "P155"
+      },
+      "strings": {
+        "fr": [
+          [ 1, "Je ne comprends pas!" ]
+        ],
+        "en": [
+          [ 1, "I don't understand!" ]
+        ],
+        "de": [
+          [ 1, "Ich verstehe nicht!" ]
+        ]
+      }
+    },
+    {
+      "id": 150,
+      "next": "clip:0",
+      "video": {
+        "src": "P156"
+      },
+      "strings": {
+        "fr": [
+          [ 2, "Si vous voulez m'excuser..." ]
+        ],
+        "en": [
+          [ 2, "If you'll excuse me ..." ]
+        ],
+        "de": [
+          [ 2, "Wenn Sie mich bitte entschuldigen ..." ]
+        ]
+      }
+    }
+  ]
+}
