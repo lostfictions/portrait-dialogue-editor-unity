@@ -16,9 +16,10 @@ namespace DialogueEditor
     }
 
     [Serializable]
-    public class Question
+    public class Question : IDialogueElement
     {
         public int id;
+        public int Id { get { return id; } }
 
         public Choice[] choices;
 
@@ -28,9 +29,10 @@ namespace DialogueEditor
     }
 
     [Serializable]
-    public class Clip
+    public class Clip : IDialogueElement
     {
         public int id;
+        public int Id { get { return id; } }
 
         /// Identifies what should be displayed after this clip has finished
         /// playing. Should be in the format of either "clip:{id}" or
@@ -73,5 +75,12 @@ namespace DialogueEditor
     {
         public string src;
         public bool loop;
+    }
+    
+    /// An element that can follow a clip -- currently either a question, another
+    /// clip, or a script. Used by the dialogue editor to restrict node types. (TODO)
+    public interface IDialogueElement
+    {
+        int Id { get; }
     }
 }
