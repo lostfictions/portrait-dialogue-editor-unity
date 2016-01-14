@@ -50,7 +50,7 @@ namespace DialogueEditor
         /// is an array of timestamped strings, where each timestamped string is
         /// itself an array of two values: the timestamp (an int) and the caption
         /// proper. (For example: [ 1, "Our world was built in a day." ] )
-        public Dictionary<string, object[]> strings;
+        public Dictionary<string, object[][]> strings;
     }
 
     [Serializable]

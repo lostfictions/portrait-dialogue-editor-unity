@@ -20,12 +20,15 @@ public class DialogueLoader : MonoBehaviour
 
     [Header("Scene Targets")]
     public RawImage videoTarget;
-    public Transform choiceContainer;
+    public RectTransform choiceContainer;
+    public Text caption;
 
     Dictionary<string, MovieTexture> videos;
     Dictionary<int, Question> questions;
     Dictionary<int, Clip> clips;
     AudioSource aud;
+
+    GameObject choiceView;
 
     ReactiveProperty<Question> currentQuestion;
     ReactiveProperty<Clip> currentClip = new ReactiveProperty<Clip>();
@@ -41,6 +44,8 @@ public class DialogueLoader : MonoBehaviour
         videos = Resources
             .LoadAll<MovieTexture>(dialogueJson.name)
             .ToDictionary(mt => mt.name);
+
+        choiceView = choiceContainer.GetComponentInParent<ScrollRect>().gameObject;
 
         aud = GetComponent<AudioSource>();
         Assert.IsNotNull(aud);
@@ -59,16 +64,10 @@ public class DialogueLoader : MonoBehaviour
             .Where(b => b)
             .Select(b => Unit.Default);
 
-//        videoEnded.Subscribe(_ => Debug.Log("Video ended!"));
-//        SetVideo("P22");
-//        Waiters.Wait(4f, gameObject).Then(() => SetVideo("P32"));
-
-
         currentQuestion = new ReactiveProperty<Question>(questions[0]);
 
         currentQuestion
             .Subscribe(q => {
-                Debug.Log(q);
                 if(q.video != null) {
                     SetVideo(q.video.src, true);
                 }
@@ -78,9 +77,36 @@ public class DialogueLoader : MonoBehaviour
         currentClip
             .Subscribe(c => {
                 if(c != null) {
-                    
-                }
+                    SetVideo(c.video.src);
+                    ShowCaption("");
 
+                    var timestamps = c.strings[lang];
+
+                    var w = gameObject.AddComponent<Waiter>();
+                    long lastTime = 0;
+                    foreach(var o in timestamps) {
+                        object[] oo = o; //mono compiler silliness
+                        long timestamp = (long)o[0];
+
+                        //HACK: timestamps seem to be offset by a second.
+                        timestamp = Math.Max(timestamp - 1, 0);
+
+                        w.ThenWait(timestamp - lastTime).Then(() => ShowCaption((string)oo[1]));
+                        lastTime = timestamp;
+                    }
+
+                    var next = c.next.Split(':');
+                    if(next[0] == "question") {
+                        videoEnded.Take(1).Subscribe(_ => currentQuestion.Value = questions[int.Parse(next[1])]);    
+                    }
+                    else if(next[0] == "clip") {
+                        videoEnded.Take(1).Subscribe(_ => currentClip.Value = clips[int.Parse(next[1])]);
+                    }
+                    else {
+                        throw new NotImplementedException("Clip 'next' value '" +
+                            next[0] +"' hasn't been implemented yet!");
+                    }
+                }
             }).AddTo(this);
     }
 
@@ -103,19 +129,22 @@ public class DialogueLoader : MonoBehaviour
         aud.Play();
     }
 
-    void SetupChoices(Choice[] choices)
+    void SetupChoices(IEnumerable<Choice> choices)
     {
+        choiceView.gameObject.SetActive(true);
+        caption.gameObject.SetActive(false);
         choiceContainer.Cast<Transform>().Each(child => Destroy(child.gameObject));
 
-        foreach(var c in choices) {
+        choiceContainer.anchoredPosition = Vector2.zero; //force scroll to top of list.
 
+        foreach(var c in choices) {
             var cp = Instantiate(choicePrefab);
             cp.transform.SetParent(choiceContainer, false);
             cp.GetComponentInChildren<Text>().text = c.strings[lang];
 
             var cc = c; //work around mono compiler being silly :'(
             cp.OnClickAsObservable().Take(1).Subscribe(_ => {
-                Debug.Log("Choice: " + cc.strings[lang]);
+                //Debug.Log("Choice: " + cc.strings[lang]);
                 if(!string.IsNullOrEmpty(cc.lang)) {
                     lang = cc.lang;
                 }
@@ -126,6 +155,8 @@ public class DialogueLoader : MonoBehaviour
 
     void ShowCaption(string text)
     {
-        
+        choiceView.gameObject.SetActive(false);
+        caption.gameObject.SetActive(true);
+        caption.text = text;
     }
 }
