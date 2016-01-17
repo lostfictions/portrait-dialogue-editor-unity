@@ -144,7 +144,6 @@ public class DialogueLoader : MonoBehaviour
 
             var cc = c; //work around mono compiler being silly :'(
             cp.OnClickAsObservable().Take(1).Subscribe(_ => {
-                //Debug.Log("Choice: " + cc.strings[lang]);
                 if(!string.IsNullOrEmpty(cc.lang)) {
                     lang = cc.lang;
                 }
