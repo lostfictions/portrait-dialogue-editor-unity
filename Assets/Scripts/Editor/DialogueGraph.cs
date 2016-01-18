@@ -7,6 +7,7 @@ using UniRx;
 using UnityEngine;
 using System;
 using System.Collections.Generic;
+using UnityEngine.Assertions;
 using Debug = UnityEngine.Debug;
 using Object = UnityEngine.Object;
 using Random = UnityEngine.Random;
@@ -16,7 +17,13 @@ using UnityEditor;
 public class DialogueGraph : EditorWindow
 {
     static readonly Color shadowCol = new Color(0, 0, 0, 0.06f);
-    static readonly Vector2 dialogueElementSize = new Vector2(250f, 250f);
+    static readonly Vector2 dialogueElementSize = new Vector2(200f, 100f);
+
+
+    Vector2 scrollPosition;
+
+
+    Texture2D background;
 
     [SerializeField]
     TextAsset dialogueFile;
@@ -32,7 +39,6 @@ public class DialogueGraph : EditorWindow
     ReactiveDictionary<int, Rect> questionRects;
     ReactiveDictionary<int, Rect> clipRects;
 
-            
     [MenuItem("Window/Dialogue Graph")]
     static void ShowWindow()
     {
@@ -61,6 +67,9 @@ public class DialogueGraph : EditorWindow
 
         languages = dialogue.questions.SelectMany(q => q.choices).SelectMany(c => c.strings.Keys).Distinct().ToArray();
         currentLanguage = languages.First(l => l != "*");
+
+        background = Resources.Load<Texture2D>("background");
+        Assert.IsNotNull(background);
     }
 
     void OnGUI()
@@ -74,19 +83,11 @@ public class DialogueGraph : EditorWindow
             Init();
         }
 
-//        DrawNodeCurve(window1, window2); // Here the curve is drawn under the windows
-
-        BeginWindows();
-        foreach(var q in dialogue.questions) {
-            questionRects[q.Id] = GUI.Window(q.Id, questionRects[q.Id], DrawQuestionWindow, "Question " + q.Id);
+        if(questions == null) {
+            Debug.Log("qs null");
+            Init();
         }
-
-        foreach(var c in dialogue.clips) {
-            clipRects[c.Id] = GUI.Window(int.MaxValue - c.Id, clipRects[c.Id], DrawNodeWindow, "Clip " + c.Id);
-        }
-        EndWindows();
-
-        using(new GUILayout.HorizontalScope(EditorStyles.toolbar)) {
+        using(new EditorGUILayout.HorizontalScope(EditorStyles.toolbar)) {
             if(GUILayout.Button(dialogueFile.name, EditorStyles.toolbarButton)) {
                 Debug.Log("Clicked");
             }
@@ -99,13 +100,65 @@ public class DialogueGraph : EditorWindow
             }
             GUILayout.FlexibleSpace();
         }
+
+        var scrollViewLayoutRect = EditorGUILayout.GetControlRect(GUILayout.ExpandWidth(true), GUILayout.ExpandHeight(true));
+
+        var rects = questionRects.Values.Concat(clipRects.Values).ToArray();
+        var maxX = Mathf.Max(rects.Max(rect => rect.x + rect.width), scrollViewLayoutRect.width);
+        var maxY = Mathf.Max(rects.Max(rect => rect.y + rect.height), scrollViewLayoutRect.height);
+
+        var scrollViewInnerRect = new Rect(0, 0, maxX, maxY);
+
+        using(var sv = new GUI.ScrollViewScope(scrollViewLayoutRect, scrollPosition, scrollViewInnerRect)) {
+            GUI.DrawTextureWithTexCoords(scrollViewInnerRect, background, new Rect(0, 0, maxX / background.width, maxY / background.height));
+
+            foreach(var q in dialogue.questions) {
+                foreach(var c in q.choices) {
+                    DrawNodeCurve(questionRects[q.id], clipRects[c.answer]); // Here the curve is drawn under the windows
+                }
+            }
+            foreach(var c in dialogue.clips) {
+                var next = c.next.Split(':');
+
+                Rect? targetRect = null;
+
+                if(next[0] == "question") {
+                    int id;
+                    if(int.TryParse(next[1], out id)) {
+                        targetRect = questionRects[id];
+                    }
+                }
+                else if(next[0] == "clip") {
+                    int id;
+                    if(int.TryParse(next[1], out id)) {
+                        targetRect = clipRects[id];
+                    }
+                }
+
+                if(targetRect.HasValue) {
+                    DrawNodeCurve(clipRects[c.id], targetRect.Value);
+                }
+            }
+
+            BeginWindows();
+            foreach(var q in dialogue.questions) {
+                questionRects[q.Id] = GUI.Window(q.Id, questionRects[q.Id], DrawQuestionWindow, "Question " + q.Id);
+            }
+            foreach(var c in dialogue.clips) {
+                clipRects[c.Id] = GUI.Window(int.MaxValue - c.Id, clipRects[c.Id], DrawNodeWindow, "Clip " + c.Id);
+            }
+            EndWindows();
+            scrollPosition = sv.scrollPosition;
+        }
+
+
     }
 
     void DrawQuestionWindow(int id)
     {
         using(new GUILayout.VerticalScope()) {
             foreach(var c in questions[id].choices) {
-                string choice = "";
+                string choice;
                 if(c.strings.TryGetValue(currentLanguage, out choice)) {
                     EditorGUILayout.TextField(choice);
                 }
@@ -142,7 +195,7 @@ public class DialogueGraph : EditorWindow
 
     void SaveGraph()
     {
-        var output = Newtonsoft.Json.JsonConvert.SerializeObject(dialogue, Formatting.Indented);
+        var output = JsonConvert.SerializeObject(dialogue, Formatting.Indented);
         var path = AssetDatabase.GetAssetPath(dialogueFile);
         File.WriteAllText(path, output);
         Debug.Log("Saved!");
