@@ -57,7 +57,7 @@ public class DialogueGraph : EditorWindow
 
         dialogue = JsonConvert.DeserializeObject<Dialogue>(dialogueFile.text);
 
-
+        /*
         //make sure clips and questions don't have the same ids, so we can use a single identifier for both
         var usedIds = new HashSet<int>();
         foreach(var q in dialogue.questions) {
@@ -91,12 +91,12 @@ public class DialogueGraph : EditorWindow
                 usedIds.Add(newId);
             }
         }
-        
+        */
         
         questions = dialogue.questions.ToDictionary(q => q.id);
         clips = dialogue.clips.ToDictionary(c => c.id);
 
-
+        /*
         var allDialogueElements = dialogue.questions.Concat<IDialogueElement>(dialogue.clips).ToDictionary(de => de.Id);
 
 //        Debug.Log(allDialogueElements.Keys.Log(", "));
@@ -161,12 +161,10 @@ public class DialogueGraph : EditorWindow
             }
             rank++;
         }
+        */
 
         questionRects = dialogue.questions.ToDictionary(q => q.id, q => new Rect(q.Position, dialogueElementSize)).ToReactiveDictionary();
         clipRects = dialogue.clips.ToDictionary(c => c.id, c => new Rect(c.Position, dialogueElementSize)).ToReactiveDictionary();
-
-//        questionRects = dialogue.questions.ToDictionary(q => q.id, q => new Rect(new Vector2(q.id % 30 * 250f, q.id / 30 * 300f + 100f), dialogueElementSize)).ToReactiveDictionary();
-//        clipRects = dialogue.clips.ToDictionary(c => c.id, c => new Rect(new Vector2(c.id % 30 * 250f + 25f, c.id / 30 * 300f + 190f), dialogueElementSize)).ToReactiveDictionary();
 
         languages = dialogue.questions.SelectMany(q => q.choices).SelectMany(c => c.strings.Keys).Distinct().ToArray();
         currentLanguage = languages.First(l => l != "*");
