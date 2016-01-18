@@ -80,11 +80,11 @@ public class DialogueLoader : MonoBehaviour
                     SetVideo(c.video.src);
                     ShowCaption("");
 
-                    var timestamps = c.strings[lang];
+                    var captions = c.strings[lang];
 
                     var w = gameObject.AddComponent<Waiter>();
                     long lastTime = 0;
-                    foreach(var o in timestamps) {
+                    foreach(var o in captions) {
                         object[] oo = o; //mono compiler silliness
                         long timestamp = (long)o[0];
 

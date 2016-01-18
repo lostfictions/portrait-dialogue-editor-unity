@@ -23,6 +23,7 @@ namespace DialogueEditor
     public class Question : IDialogueElement
     {
         public int id;
+        [JsonIgnore]
         public int Id { get { return id; } }
 
         public float x;
@@ -43,6 +44,7 @@ namespace DialogueEditor
     public class Clip : IDialogueElement
     {
         public int id;
+        [JsonIgnore]
         public int Id { get { return id; } }
 
         public float x;
@@ -72,6 +74,7 @@ namespace DialogueEditor
 //    public class Script : IDialogueElement
 //    {
 //        public int id;
+//        [JsonIgnore]
 //        public int Id { get { return id; } }
 
 //        public float x;
@@ -116,6 +119,6 @@ namespace DialogueEditor
     public interface IDialogueElement
     {
         int Id { get; }
-        Vector2 Position { get; }
+        Vector2 Position { get; set; }
     }
 }
