@@ -49,7 +49,8 @@ public class DialogueGraph : EditorWindow
     void Init()
     {
         if(dialogueFile == null) {
-            dialogueFile = FindObjectOfType<DialogueLoader>().dialogueJson;
+            dialogueFile = Resources.Load<TextAsset>("paule.json.layout");
+//            dialogueFile = FindObjectOfType<DialogueLoader>().dialogueJson;
         }
         else {
             Debug.Log("dialogue file already referenced on init!");
