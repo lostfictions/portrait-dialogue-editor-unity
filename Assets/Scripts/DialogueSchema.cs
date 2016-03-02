@@ -5,8 +5,11 @@ using Debug = UnityEngine.Debug;
 using Object = UnityEngine.Object;
 using Random = UnityEngine.Random;
 
+using Newtonsoft.Json;
+
 namespace DialogueEditor
 {
+    /// Overarching schema for the JSON file.
     [Serializable]
     public class Dialogue
     {
@@ -15,11 +18,18 @@ namespace DialogueEditor
         public Clip[] clips;
     }
 
+    /// A choice of lines of dialogue that the user can pose to the character.
     [Serializable]
     public class Question : IDialogueElement
     {
         public int id;
+        [JsonIgnore]
         public int Id { get { return id; } }
+
+        public float x;
+        public float y;
+        [JsonIgnore]
+        public Vector2 Position { get { return new Vector2(x, y); } set { x = value.x; y = value.y; } }
 
         public Choice[] choices;
 
@@ -28,11 +38,19 @@ namespace DialogueEditor
         public Video video;
     }
 
+    /// A video of the character that is shown to the user following a choice, a script
+    /// or another clip.
     [Serializable]
     public class Clip : IDialogueElement
     {
         public int id;
+        [JsonIgnore]
         public int Id { get { return id; } }
+
+        public float x;
+        public float y;
+        [JsonIgnore]
+        public Vector2 Position { get { return new Vector2(x, y); } set { x = value.x; y = value.y; } }
 
         /// Identifies what should be displayed after this clip has finished
         /// playing. Should be in the format of either "clip:{id}" or
@@ -52,6 +70,18 @@ namespace DialogueEditor
         /// proper. (For example: [ 1, "Our world was built in a day." ] )
         public Dictionary<string, object[][]> strings;
     }
+
+//    public class Script : IDialogueElement
+//    {
+//        public int id;
+//        [JsonIgnore]
+//        public int Id { get { return id; } }
+
+//        public float x;
+//        public float y;
+//        [JsonIgnore]        
+//        public Vector2 Position { get { return new Vector2(x, y); } set { x = value.x; y = value.y; } }
+//    }
 
     [Serializable]
     public class Choice
@@ -76,11 +106,19 @@ namespace DialogueEditor
         public string src;
         public bool loop;
     }
+
+    [Serializable]
+    public class Caption
+    {
+        public int timestamp;
+        public string caption;
+    }
     
     /// An element that can follow a clip -- currently either a question, another
-    /// clip, or a script. Used by the dialogue editor to restrict node types. (TODO)
+    /// clip, or a script.
     public interface IDialogueElement
     {
         int Id { get; }
+        Vector2 Position { get; set; }
     }
 }
