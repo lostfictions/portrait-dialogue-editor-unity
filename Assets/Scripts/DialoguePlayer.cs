@@ -1,6 +1,7 @@
 using UnityEngine;
 using System;
 using System.Collections.Generic;
+using UnityEngine.Events;
 using Debug = UnityEngine.Debug;
 using Object = UnityEngine.Object;
 using Random = UnityEngine.Random;
@@ -10,7 +11,7 @@ using DialogueEditor;
 using UnityEngine.Assertions;
 using UniRx;
 
-public class DialogueLoader : MonoBehaviour
+public class DialoguePlayer : MonoBehaviour
 {
     [Header("Resources")]
     public TextAsset dialogueJson;
@@ -37,13 +38,9 @@ public class DialogueLoader : MonoBehaviour
 
     void Start()
     {
-        Assert.IsTrue(System.IO.Directory.Exists("Assets/Resources/" + dialogueJson.name),
-            "Video clips for dialogue JSON file must be placed in a folder " +
-            "with the same name as the file (excluding the extension.)");
-
-        videos = Resources
-            .LoadAll<MovieTexture>(dialogueJson.name)
-            .ToDictionary(mt => mt.name);
+        Assert.IsTrue(System.IO.Directory.Exists("Assets/Resources/video"),
+            "Video clips for the dialogue JSON file must be placed in a folder " +
+            "named 'video' in the project's 'Resources' folder.");
 
         choiceView = choiceContainer.GetComponentInParent<ScrollRect>().gameObject;
 
@@ -53,6 +50,13 @@ public class DialogueLoader : MonoBehaviour
         var dialogue = Newtonsoft.Json.JsonConvert.DeserializeObject<Dialogue>(dialogueJson.text);
         questions = dialogue.questions.ToDictionary(q => q.id);
         clips = dialogue.clips.ToDictionary(c => c.id);
+
+        //Load any videos we might need.
+        videos = dialogue.clips
+            .Select(c => Resources.Load<MovieTexture>("video/" + c.video.src))
+            .Where(mt => mt != null)
+            .Distinct()
+            .ToDictionary(mt => mt.name);
 
         //Set up observable.
         var videoEnded = Observable.EveryLateUpdate()
@@ -96,15 +100,21 @@ public class DialogueLoader : MonoBehaviour
                     }
 
                     var next = c.next.Split(':');
-                    if(next[0] == "question") {
-                        videoEnded.Take(1).Subscribe(_ => currentQuestion.Value = questions[int.Parse(next[1])]);    
-                    }
-                    else if(next[0] == "clip") {
-                        videoEnded.Take(1).Subscribe(_ => currentClip.Value = clips[int.Parse(next[1])]);
-                    }
-                    else {
-                        throw new NotImplementedException("Clip 'next' value '" +
-                            next[0] +"' hasn't been implemented yet!");
+                    switch(next[0]) {
+                        case "question":
+                            videoEnded.Take(1).Subscribe(_ => currentQuestion.Value = questions[int.Parse(next[1])]);
+                            break;
+                        case "clip":
+                            videoEnded.Take(1).Subscribe(_ => currentClip.Value = clips[int.Parse(next[1])]);
+                            break;
+                        case "script":
+                            var scriptData = next[1].Split(';');
+                            var nextClip = DialogueScripts.scripts[scriptData[0]](scriptData[1]);
+                            videoEnded.Take(1).Subscribe(_ => currentClip.Value = clips[nextClip]);
+                            break;
+                        default:
+                            throw new NotImplementedException("Clip 'next' value '" +
+                                                              next[0] +"' hasn't been implemented yet!");
                     }
                 }
             }).AddTo(this);
